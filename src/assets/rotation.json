@@ -1,0 +1,2752 @@
+{
+  "Rotations": {
+    "@xsi:noNamespaceSchemaLocation": "http://comp.umsl.edu/~xml_data/Rotation.xsd",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "rotation_year": [
+      {
+        "year": "2016",
+        "course": [
+          {
+            "subject": "CMP SCI",
+            "course_number": "1250",
+            "course_name": "Introduction to Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2250",
+            "course_name": "Programming and Data Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2261",
+            "course_name": "Object-Oriented Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2700",
+            "course_name": "Computer Architecture and Organization",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2750",
+            "course_name": "System Programming and Tools",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3010",
+            "course_name": "Web Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3130",
+            "course_name": "Design and Analysis of Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3710",
+            "course_name": "Assembly Language Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4010",
+            "course_name": "Advanced Web Development with Java",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4250",
+            "course_name": "Programming Languages",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4280",
+            "course_name": "Program Translation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4500",
+            "course_name": "Introduction to Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4610",
+            "course_name": "Database Management Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4730",
+            "course_name": "Computer Networks and Communications",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4760",
+            "course_name": "Operating Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5010",
+            "course_name": "Enterprise Web Development",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5130",
+            "course_name": "Advanced Data Structures and Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5320",
+            "course_name": "Introduction to Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5420",
+            "course_name": "Digital Image Processing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5500",
+            "course_name": "Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5700",
+            "course_name": "Computer Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5740",
+            "course_name": "High Performance Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6320",
+            "course_name": "Advances in Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6340",
+            "course_name": "Genetic Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6410",
+            "course_name": "Topics in Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6420",
+            "course_name": "Topics in Image Processing and Multimedia",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1320",
+            "course_name": "Applied Statistics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1800",
+            "course_name": "Analytic Geometry and Calculus I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1900",
+            "course_name": "Analytic Geometry and Calculus II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2000",
+            "course_name": "Analytic Geometry and Calculus III",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2020",
+            "course_name": "Introduction to Differential Equations",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2450",
+            "course_name": "Elementary Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "3000",
+            "course_name": "Discrete Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4100",
+            "course_name": "Real Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4160",
+            "course_name": "Complex Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4200",
+            "course_name": "Mathematical Statistics II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4400",
+            "course_name": "Introduction to Abstract Algebra I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4450",
+            "course_name": "Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4660",
+            "course_name": "Foundations of Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4670",
+            "course_name": "Introduction to Non-Euclidean Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5100",
+            "course_name": "Real Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5140",
+            "course_name": "Set Theory and Metric Spaces",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5160",
+            "course_name": "Complex Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5820",
+            "course_name": "Topics in Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2017",
+        "course": [
+          {
+            "subject": "CMP SCI",
+            "course_number": "1250",
+            "course_name": "Introduction to Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2250",
+            "course_name": "Programming and Data Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2261",
+            "course_name": "Object-Oriented Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2700",
+            "course_name": "Computer Architecture and Organization",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2750",
+            "course_name": "System Programming and Tools",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3010",
+            "course_name": "Web Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3130",
+            "course_name": "Design and Analysis of Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3710",
+            "course_name": "Assembly Language Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4010",
+            "course_name": "Advanced Web Development with Java",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4250",
+            "course_name": "Programming Languages",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4280",
+            "course_name": "Program Translation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4500",
+            "course_name": "Introduction to Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4610",
+            "course_name": "Database Management Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4730",
+            "course_name": "Computer Networks and Communications",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4760",
+            "course_name": "Operating Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5012",
+            "course_name": "Enterprise Web Development",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5130",
+            "course_name": "Advanced Data Structures and Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5320",
+            "course_name": "Introduction to Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5420",
+            "course_name": "Digital Image Processing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5500",
+            "course_name": "Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5700",
+            "course_name": "Computer Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5740",
+            "course_name": "High Performance Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6320",
+            "course_name": "Advances in Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6340",
+            "course_name": "Genetic Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6410",
+            "course_name": "Topics in Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6420",
+            "course_name": "Topics in Image Processing and Multimedia",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1320",
+            "course_name": "Applied Statistics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1800",
+            "course_name": "Analytic Geometry and Calculus I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1900",
+            "course_name": "Analytic Geometry and Calculus II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2000",
+            "course_name": "Analytic Geometry and Calculus III",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2020",
+            "course_name": "Introduction to Differential Equations",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2450",
+            "course_name": "Elementary Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "3000",
+            "course_name": "Discrete Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4100",
+            "course_name": "Real Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4160",
+            "course_name": "Complex Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4200",
+            "course_name": "Mathematical Statistics II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4400",
+            "course_name": "Introduction to Abstract Algebra I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4450",
+            "course_name": "Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4660",
+            "course_name": "Foundations of Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4670",
+            "course_name": "Introduction to Non-Euclidean Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5100",
+            "course_name": "Real Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5140",
+            "course_name": "Set Theory and Metric Spaces",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5160",
+            "course_name": "Complex Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5820",
+            "course_name": "Topics in Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2018",
+        "course": [
+          {
+            "subject": "CMP SCI",
+            "course_number": "1250",
+            "course_name": "Introduction to Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2250",
+            "course_name": "Programming and Data Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2261",
+            "course_name": "Object-Oriented Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2700",
+            "course_name": "Computer Architecture and Organization",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2750",
+            "course_name": "System Programming and Tools",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3010",
+            "course_name": "Web Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3130",
+            "course_name": "Design and Analysis of Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3710",
+            "course_name": "Assembly Language Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4010",
+            "course_name": "Advanced Web Development with Java",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4250",
+            "course_name": "Programming Languages",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4280",
+            "course_name": "Program Translation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4500",
+            "course_name": "Introduction to Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4610",
+            "course_name": "Database Management Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4730",
+            "course_name": "Computer Networks and Communications",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4760",
+            "course_name": "Operating Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5012",
+            "course_name": "Enterprise Web Development",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5130",
+            "course_name": "Advanced Data Structures and Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5320",
+            "course_name": "Introduction to Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5420",
+            "course_name": "Digital Image Processing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5500",
+            "course_name": "Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5700",
+            "course_name": "Computer Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5740",
+            "course_name": "High Performance Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6320",
+            "course_name": "Advances in Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6340",
+            "course_name": "Genetic Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6410",
+            "course_name": "Topics in Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6420",
+            "course_name": "Topics in Image Processing and Multimedia",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1320",
+            "course_name": "Applied Statistics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1800",
+            "course_name": "Analytic Geometry and Calculus I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1900",
+            "course_name": "Analytic Geometry and Calculus II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2000",
+            "course_name": "Analytic Geometry and Calculus III",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2020",
+            "course_name": "Introduction to Differential Equations",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2450",
+            "course_name": "Elementary Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "3000",
+            "course_name": "Discrete Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4100",
+            "course_name": "Real Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4160",
+            "course_name": "Complex Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4200",
+            "course_name": "Mathematical Statistics II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4400",
+            "course_name": "Introduction to Abstract Algebra I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4450",
+            "course_name": "Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4660",
+            "course_name": "Foundations of Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4670",
+            "course_name": "Introduction to Non-Euclidean Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5100",
+            "course_name": "Real Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5140",
+            "course_name": "Set Theory and Metric Spaces",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5160",
+            "course_name": "Complex Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5820",
+            "course_name": "Topics in Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2019",
+        "course": [
+          {
+            "subject": "CMP SCI",
+            "course_number": "1250",
+            "course_name": "Introduction to Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2250",
+            "course_name": "Programming and Data Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2261",
+            "course_name": "Object-Oriented Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2700",
+            "course_name": "Computer Architecture and Organization",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2750",
+            "course_name": "System Programming and Tools",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3010",
+            "course_name": "Web Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3130",
+            "course_name": "Design and Analysis of Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3710",
+            "course_name": "Assembly Language Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4010",
+            "course_name": "Advanced Web Development with Java",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4250",
+            "course_name": "Programming Languages",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4280",
+            "course_name": "Program Translation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4500",
+            "course_name": "Introduction to Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4610",
+            "course_name": "Database Management Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4730",
+            "course_name": "Computer Networks and Communications",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4760",
+            "course_name": "Operating Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5012",
+            "course_name": "Enterprise Web Development",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5130",
+            "course_name": "Advanced Data Structures and Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5320",
+            "course_name": "Introduction to Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5420",
+            "course_name": "Digital Image Processing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5500",
+            "course_name": "Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5700",
+            "course_name": "Computer Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5740",
+            "course_name": "High Performance Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6320",
+            "course_name": "Advances in Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6340",
+            "course_name": "Genetic Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6410",
+            "course_name": "Topics in Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6420",
+            "course_name": "Topics in Image Processing and Multimedia",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1320",
+            "course_name": "Applied Statistics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1800",
+            "course_name": "Analytic Geometry and Calculus I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1900",
+            "course_name": "Analytic Geometry and Calculus II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2000",
+            "course_name": "Analytic Geometry and Calculus III",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2020",
+            "course_name": "Introduction to Differential Equations",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2450",
+            "course_name": "Elementary Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "3000",
+            "course_name": "Discrete Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4100",
+            "course_name": "Real Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4160",
+            "course_name": "Complex Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4200",
+            "course_name": "Mathematical Statistics II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4400",
+            "course_name": "Introduction to Abstract Algebra I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4450",
+            "course_name": "Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4660",
+            "course_name": "Foundations of Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4670",
+            "course_name": "Introduction to Non-Euclidean Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5100",
+            "course_name": "Real Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5140",
+            "course_name": "Set Theory and Metric Spaces",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5160",
+            "course_name": "Complex Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5820",
+            "course_name": "Topics in Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "course": [
+          {
+            "subject": "CMP SCI",
+            "course_number": "1250",
+            "course_name": "Introduction to Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2250",
+            "course_name": "Programming and Data Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2261",
+            "course_name": "Object-Oriented Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2700",
+            "course_name": "Computer Architecture and Organization",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2750",
+            "course_name": "System Programming and Tools",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3010",
+            "course_name": "Web Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3130",
+            "course_name": "Design and Analysis of Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3710",
+            "course_name": "Assembly Language Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4010",
+            "course_name": "Advanced Web Development with Java",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4250",
+            "course_name": "Programming Languages",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4280",
+            "course_name": "Program Translation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4500",
+            "course_name": "Introduction to Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4610",
+            "course_name": "Database Management Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4730",
+            "course_name": "Computer Networks and Communications",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4760",
+            "course_name": "Operating Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "D" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5012",
+            "course_name": "Enterprise Web Development",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5130",
+            "course_name": "Advanced Data Structures and Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5320",
+            "course_name": "Introduction to Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5420",
+            "course_name": "Digital Image Processing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5500",
+            "course_name": "Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5700",
+            "course_name": "Computer Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5740",
+            "course_name": "High Performance Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6320",
+            "course_name": "Advances in Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6340",
+            "course_name": "Genetic Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6410",
+            "course_name": "Topics in Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6420",
+            "course_name": "Topics in Image Processing and Multimedia",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1320",
+            "course_name": "Applied Statistics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1800",
+            "course_name": "Analytic Geometry and Calculus I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1900",
+            "course_name": "Analytic Geometry and Calculus II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2000",
+            "course_name": "Analytic Geometry and Calculus III",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2020",
+            "course_name": "Introduction to Differential Equations",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2450",
+            "course_name": "Elementary Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "3000",
+            "course_name": "Discrete Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4100",
+            "course_name": "Real Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4160",
+            "course_name": "Complex Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4200",
+            "course_name": "Mathematical Statistics II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4400",
+            "course_name": "Introduction to Abstract Algebra I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4450",
+            "course_name": "Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4660",
+            "course_name": "Foundations of Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4670",
+            "course_name": "Introduction to Non-Euclidean Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5100",
+            "course_name": "Real Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5140",
+            "course_name": "Set Theory and Metric Spaces",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5160",
+            "course_name": "Complex Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5820",
+            "course_name": "Topics in Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "course": [
+          {
+            "subject": "CMP SCI",
+            "course_number": "1000",
+            "course_name": "Computer Science Experiences",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "1250",
+            "course_name": "Introduction to Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E,O" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "D,E,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2250",
+            "course_name": "Programming and Data Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E,O" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "D,E,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2261",
+            "course_name": "Object-Oriented Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E,O" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "D,E,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2700",
+            "course_name": "Computer Architecture and Organization",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E,O" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "D,E,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "2750",
+            "course_name": "System Programming and Tools",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E,O" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "D,E,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3010",
+            "course_name": "Web Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E,O" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "D,E,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3130",
+            "course_name": "Design and Analysis of Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E,O" },
+              { "term": "Summer", "time_code": "O,H" },
+              { "term": "Fall", "time_code": "D,E,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3411",
+            "course_name": "Introduction to Data Visualization",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E,H" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3702",
+            "course_name": "Introduction to Cyber Threats and Defense",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "O" },
+              { "term": "Fall", "time_code": "O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3710",
+            "course_name": "Assembly Language Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3780",
+            "course_name": "Software Security",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "3990",
+            "course_name": "Undergraduate Internship",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "A" },
+              { "term": "Summer", "time_code": "A" },
+              { "term": "Fall", "time_code": "A" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4010",
+            "course_name": "Advanced Web Development with Java",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "O" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4011",
+            "course_name": "Web Development with advanced Javascript",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "O" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4012",
+            "course_name": "Introduction to Enterprise Web Development",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4020",
+            "course_name": "Introduction to Android Apps: Android Fundamentals",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4151",
+            "course_name": "Introduction to Statistical Methods for Data Science",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "H" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4200",
+            "course_name": "Python for Scientific Computing and Data Science",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "H,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4220",
+            "course_name": "Introduction to iOS Programming and Apps",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Summer", "time_code": "H" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4250",
+            "course_name": "Programming Languages",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "H,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4280",
+            "course_name": "Program Translation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E,O" },
+              { "term": "Summer", "time_code": "O" },
+              { "term": "Fall", "time_code": "D,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4300",
+            "course_name": "Introduction to Artificial Intelligence",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Fall", "time_code": "H" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4320",
+            "course_name": "Introduction to Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4340",
+            "course_name": "Introduction to Machine Learning",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Fall", "time_code": "H" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4342",
+            "course_name": "Introduction to Data Mining",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Fall", "time_code": "H" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4370",
+            "course_name": "Introduction to Biological Data Science",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4390",
+            "course_name": "Introduction to Deep Learning",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "O,H" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4420",
+            "course_name": "Introduction to Digital Image Processing and Computer Vision",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4500",
+            "course_name": "Introduction to Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "O" },
+              { "term": "Fall", "time_code": "O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4610",
+            "course_name": "Database Management Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4700",
+            "course_name": "Computer Forensics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4730",
+            "course_name": "Computer Networks and Communications",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "O" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4732",
+            "course_name": "Introduction to Cryptography for Computer Security",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Summer", "time_code": "O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4750",
+            "course_name": "Introduction to Cloud Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4760",
+            "course_name": "Operating Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E,O" },
+              { "term": "Fall", "time_code": "D,E,O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4782",
+            "course_name": "Information Security",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "O" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4792",
+            "course_name": "Introduction to Mobile Computing, Networking, and Security",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "H" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4794",
+            "course_name": "Introduction to Security of IOT Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "O" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "4880",
+            "course_name": "Individual Studies in Computer Science",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "A" },
+              { "term": "Summer", "time_code": "A" },
+              { "term": "Fall", "time_code": "A" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5012",
+            "course_name": "Enterprise Web Development",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5130",
+            "course_name": "Advanced Data Structures and Algorithms",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5320",
+            "course_name": "Introduction to Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5410",
+            "course_name": "Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5420",
+            "course_name": "Digital Image Processing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5500",
+            "course_name": "Software Engineering",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5700",
+            "course_name": "Computer Systems",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "5740",
+            "course_name": "High Performance Computing",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6320",
+            "course_name": "Advances in Evolutionary Computation",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6340",
+            "course_name": "Genetic Programming",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6410",
+            "course_name": "Topics in Computer Graphics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "CMP SCI",
+            "course_number": "6420",
+            "course_name": "Topics in Image Processing and Multimedia",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1320",
+            "course_name": "Applied Statistics",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1800",
+            "course_name": "Analytic Geometry and Calculus I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "1900",
+            "course_name": "Analytic Geometry and Calculus II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2000",
+            "course_name": "Analytic Geometry and Calculus III",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2020",
+            "course_name": "Introduction to Differential Equations",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "2450",
+            "course_name": "Elementary Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D,E" },
+              { "term": "Fall", "time_code": "D,E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "3000",
+            "course_name": "Discrete Structures",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": "E" }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4100",
+            "course_name": "Real Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4160",
+            "course_name": "Complex Analysis I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4200",
+            "course_name": "Mathematical Statistics II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4400",
+            "course_name": "Introduction to Abstract Algebra I",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4450",
+            "course_name": "Linear Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "D" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4660",
+            "course_name": "Foundations of Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "4670",
+            "course_name": "Introduction to Non-Euclidean Geometry",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5100",
+            "course_name": "Real Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5140",
+            "course_name": "Set Theory and Metric Spaces",
+            "rotation_term": [
+              { "term": "Spring", "time_code": "E" },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5160",
+            "course_name": "Complex Analysis II",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          },
+          {
+            "subject": "MATH",
+            "course_number": "5820",
+            "course_name": "Topics in Algebra",
+            "rotation_term": [
+              { "term": "Spring", "time_code": null },
+              { "term": "Fall", "time_code": null }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

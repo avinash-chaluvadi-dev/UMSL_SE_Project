@@ -1,0 +1,1565 @@
+{
+  "courses": [
+    {
+      "subject": "CMP SCI",
+      "course_number": "1000",
+      "course_name": "Computer Science Experiences",
+      "credit": "1",
+      "course_description": "This course is for recently declared undergraduate students majoring in Computer Science or Computing Technology. Topics may include resources that are available on campus and in the department, career opportunities, choosing the right degree, and exploration of concepts, skills and practices that are essential for successful careers. This course should be taken by freshmen and transfers within the first two semesters of declaring the major"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "1010",
+      "course_name": "Introduction To Computers And The Internet",
+      "credit": "3",
+      "course_description": "Covers basic concepts and components of a PC: survey of popular \napplications including e-mail, word processors, spreadsheets, overview of the Internet, popular \nbrowsers, World Wide Web, search engines, multimedia, web pages, security, and privacy. Credit not \ngranted for both CMP SCI 1010 and INF SYS 1800."
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "1011",
+      "course_name": "Introduction to the Internet and World Wide Web",
+      "credit": "3",
+      "course_description": "Intended for any student wishing to utilize the Internet and \nWorld Wide Web more effectively. Topics include networking basics, the Internet and World Wide Web, \nbrowsers, search engines, Web Services, utilities, tools, online privacy and security. Students will \nlearn to develop a personal web page using skills acquired in the course"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "1012",
+      "course_name": "Learning to Program Using Virtual Worlds",
+      "credit": "3",
+      "course_description": "Introduces modern programming principles without requiring the \nknowledge of a traditional programming language. Instead, this course utilizes a novel graphical \napproach that enables the student to create, populate, and manipulate virtual 3-dimensional worlds \nwhich resemble video games. The development of these worlds allows students to gain direct \nexperience and skills in using computers to solve problems. Students will create worlds of varying \ncomplexity."
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "1250",
+      "course_name": "Introduction to Computing",
+      "credit": "3",
+      "course_description": "Provides an introduction to the concepts of computation, problem \nsolving, and computer systems, Covers fundamental programming constructs, basic data types, and \nmodularization using a modern high level language. Problem solving skills are developed through a \nprogression of programming projects.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 1030 with B- or better" },
+          { "and_required": "MATH 1100" },
+          { "and_required": "MATH 1800" },
+          { "and_required": "Proctored ALEKS Score" }
+        ]
+      },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "2250",
+      "course_name": "Programming and Data Structures",
+      "credit": "3",
+      "course_description": "A continuation of CMP SCI 1250. Discusses properties and \nimplementation of abstract data types such as lists, trees, stacks and queues. Introduces procedural \nand class abstraction, basic program architecture, use of interfaces, modular programming, and file \nprocessing.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 1250" } },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "2261",
+      "course_name": "Object-Oriented Programming",
+      "credit": "3",
+      "course_description": "Introduces object-oriented concepts, terminology, and notation \n(UML) using Java. Covers encapsulation, classes, objects, inheritance, and the use of class \nlibraries. Additional topics may include graphical user interfaces, applets, and related tools and \ntechnologies.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 2250" } },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "2700",
+      "course_name": "Computer Architecture and Organization",
+      "credit": "3",
+      "course_description": "Introduces details of computer systems from architectural and \norganizational points of view. Covers data representation, basic digital logic circuits, memory \ntypes and hierarchies, I/O and storage devices, CPU architectures such as RISC, CISC, parallel, and \nmulti-core.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": [
+            "CMP SCI 1250",
+            { "@concurrent": "true", "#text": "CMP SCI 2250" }
+          ]
+        }
+      },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "2750",
+      "course_name": "System Programming and Tools",
+      "credit": "3",
+      "course_description": "Covers systems programming, scripting, libraries, utilities, and \ndevelopment tools. Additional programming topics include piping, binary files, exception handling, \ncommand-line arguments and symbolic debugging. This course also explores tools available in the \nUnix/Linus environments.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": [
+            "CMP SCI 2250",
+            { "@concurrent": "true", "#text": "CMP SCI 2700" }
+          ]
+        }
+      },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "3010",
+      "course_name": "Web Programming",
+      "credit": "3",
+      "course_description": "Provides a survey of current Web technologies including markup \nlanguages (such as HTML/XHTML, CSS, XML), client side languages (such as JavaScript), server side \nlanguages (such as PERL, PHP), and Web protocols. This course requires client-server computing \nprojects.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": { "@concurrent": "true", "#text": "CMP SCI 2261" }
+        }
+      },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "3130",
+      "course_name": "Design and Analysis of Algorithms",
+      "credit": "3",
+      "course_description": "Addresses the design and analysis of fundamental algorithms in \ncomputer science. Studies basic sorting algorithms priority queues, order statistics, search trees, \nand hash tables. Analysis techniques may involve time and space complexity analysis of both \niterative and recursive algorithms, analysis of algorithm correctness, and amortized complexity \nanalysis. Additional topics may include data compression, string manipulation, greedy algorithms, \ndynamic programming, and graph traversal.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["CMP SCI 2250", "MATH 1320", "MATH 3000"]
+        }
+      },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "3410",
+      "course_name": "Video Game Design and Development",
+      "credit": "3",
+      "course_description": "This course covers major aspects of the design and development of video games, including world/level design, game UI design, game character design, game engine programming, 2D/3D modeling and rendering, game physics and animation. This is a project-based course in which students learn to apply acquired knowledge and skills to building a video game in a team environment",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 2261" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "3411",
+      "course_name": "Introduction to Data Visualization",
+      "credit": "3",
+      "course_description": "The course includes an introduction to data cleaning and analysis. Plotting tools such as Tableau, Matplotlib, and D3.js are also introduced. Topics covered may include graphical excellence, log scale, color, heat maps, network visualization, plotting scientific data, interactive plots, and plotting live stream of data. Credit cannot be granted for both CMP SCI 3411 and CMP SCI 5411",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 1250" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "3702",
+      "course_name": "Introduction to Cyber Threats and Defense",
+      "credit": "3",
+      "course_description": "This course provides the importance of cybersecurity and covers its various components. Topics may include different types of malware, phishing, password attacks, spoofing, efficient encryption algorithms, firewalls, intrusion prevention/detection systems, and honeypots. Credit cannot be granted for both CMP SCI 3702 and CMP SCI 5702.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 2250" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "3710",
+      "course_name": "Assembly Language Programming",
+      "credit": "3",
+      "course_description": "Explore machine architecture concepts and principles through a \nstudy of assembly language programming. Topics covered include integer and floating point \narithmetic, procedures, conditional processing, strings, macros, and interfaces to high level \nlanguages. Programming projects using a commercially available assembly language will be \nrequired.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 2700" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "3780",
+      "course_name": "Software Security",
+      "credit": "3",
+      "course_description": "This course introduces the basic software security principles and pitfalls, including topics such as buffer, integer and string problems, runtime errors, SQL and command injection. Additional topics may include data protection, secure file access, password and network security.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["CMP SCI 2261", "CMP SCI 2750", "CMP SCI 3010"]
+        }
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "3990",
+      "course_name": "Undergraduate Internship",
+      "credit": "1-3",
+      "course_description": "This course is a computer science internship that provides a student field experience in an organization related to the profession. To be enrolled, students must be employed in an internship or co-op program and find an instructor to supervise the experience. Internship activities may vary by site, but will often require end-of-semester reporting. Typically 1 credit can be earned for about 100 work hours. A maximum of 3 credit hours of CMP SCI 3990 can be counted as major electives and a maximum of 6 credit hours of CMP SCI 3990 and CMP SCI 4880 combined can be counted as major electives"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4010",
+      "course_name": "Advanced Web Development with Java",
+      "credit": "3",
+      "course_description": "Covers more advanced Java topics, along with related concepts \nand technologies for Web development. Topics may include database connectivity, multithreading, \nsecurity, networking, MVC pattern, testing and source control for Java applications, and server-side \ntopics such as servlets and web servers.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["CMP SCI 2261", "CMP SCI 3010"] },
+          { "and_required": "Graduate Standing" }
+        ]
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4011",
+      "course_name": "Web Development with advanced Javascript",
+      "credit": "3",
+      "course_description": "This course provides a comprehensive overview of website development using the modern MEAN (MongoDB, Express.js, Angular, Node.js) stack architecture. Students will create web applications that make use of today's modern JavaScript engine. Other topics may include React, Sass (Syntactically awesome style sheets), and Pug template engine.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 3010" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4012",
+      "course_name": "Introduction to Enterprise Web Development",
+      "credit": "3",
+      "course_description": "This course covers design and implementation issues for \nenterprise web development, and some popular advanced technologies. Topics include MVC and \npersistence frameworks, such as Spring and Hibernate. Other topics may include Java Web services, \nEJB, messaging standards such as JMS, and Java EE design patterns. Students will develop \nenterprise-level web application projects. Credit cannot be earned for both CMP SCI 4012 and CMP SCI \n5012.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 4010" } },
+      "paired": "CMP SCI 5012"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4020",
+      "course_name": "Introduction to Android Apps: Android Fundamentals",
+      "credit": "3",
+      "course_description": "This course covers the fundamental programming principles, \nsoftware architecture and user experience considerations underlying handheld software applications \nand their development environments. Involves in-depth, hands-on examples, implemented on the Android \nPlatform, and discussion of security. Credit not granted for both CMP SCI 4020 and CMP SCI \n5020.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 4010" } },
+      "paired": "CMP SCI 5020"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4030",
+      "course_name": "Introduction to Intelligent Web",
+      "credit": "3",
+      "course_description": "Covers the application of artificial intelligence and other \nmodern techniques to help construct, navigate, and experience the Web. Topics may include retrieval \nmodels, classification, mining, association, topology, and indexing algorithms such as PageRank and \nHITS. Credit cannot be earned for both CMP SCI 4030 and CMP SCI 5030.",
+      "prerequisite": {
+        "or_choice": { "and_required": ["CMP SCI 3010", "CMP SCI 3130"] }
+      },
+      "paired": "CMP SCI 5030"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4040",
+      "course_name": "Electronic Commerce Protocols",
+      "credit": "3",
+      "course_description": "Provides a technical introduction to electronic commerce over \nthe Internet, examining topics such as electronic data interchange, digital currency, and electronic \ncatalogs. The course discusses technical issues such as telecommunications infrastructure, data \nwarehousing, software agents, and storage retrieval of multimedia information. Other topics may \ninclude cryptographic techniques as applicable to web-site development, management of data in a \nsecure manner, authentication and confidentiality, different levels of security (transaction, \nnetwork, and protocol), and digital signatures.",
+      "prerequisite": {
+        "or_choice": { "and_required": ["CMP SCI 2750", "MATH 2450"] }
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4050",
+      "course_name": "User Interface Development",
+      "credit": "3",
+      "course_description": "Focuses on user interface design standards as a programming \nproblem. It covers topics such as functional vs. aesthetic concerns, elegance and simplicity, \ninterference between competing elements, visual variables, perceptual organization for visual \nstructure, grid-based design of module and program, semiotics with images and \nrepresentation.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 2750" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4140",
+      "course_name": "Theory of Computation",
+      "credit": "3",
+      "course_description": "Provides an introduction to the theory of computation. Describes \nbasic computational models, such as finite state machines, pushdown automata. Turing machines and \ngrammars. Covers the concept of nondeterministic computation and the relationships between different \ncomputational models. Discusses decidability, reducibility, and classification of problems into \ncomplexity classes based on their time and space complexity, such as P, NP, and \nPSPACE.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "CMP SCI 3130" },
+          { "and_required": "Graduate Standing" }
+        ]
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4151",
+      "course_name": "Introduction to Statistical Methods for Data Science",
+      "credit": "3",
+      "course_description": "This course covers statistical inference with emphasis on applications and computer simulation. Topics may include multivariate distributions, transformations and combinations of random variables, sampling distributions, maximum likelihood, bootstrap, order statistics, hypothesis testing, likelihood ratio tests, Monte Carlo methods, Bayesian inference, and sufficient statistics. Students may not receive credit for both CMP SCI 4151 and CMP SCI 5151.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["CMP SCI 1250", "MATH 1990", "CMP SCI 1320"]
+        }
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4020",
+      "course_name": "Introduction to Android Apps: Android Fundamentals",
+      "credit": "3",
+      "course_description": "This course covers the fundamental programming principles, software architecture, and user experience considerations underlying handheld software applications and their development environments. The course involves in-depth, hands-on examples that are implemented on the Android Platform, along with discussions of security. Credit can not be granted for both CMP SCI 4020 and CMP SCI 5020.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 2261" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4200",
+      "course_name": "Python for Scientific Computing and Data Science",
+      "credit": "3",
+      "course_description": "This course covers programming using the Python language and related libraries. The course explores problem solving using Python's support of procedural, object-oriented, and functional approaches to programming. Topics may include NumPy arrays, visualization, Pandas DataFrames, and selected functions from statistical and scientific packages.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "CMP SCI 1250" },
+          { "and_required": ["MATH 1100", "MATH 1800"] },
+          {
+            "and_required": [
+              "SOC 3220",
+              "ANTHRO 3220",
+              "BIOL 4122",
+              "CRIMIN 2220",
+              "ECON 3100",
+              "MATH 1320",
+              "POL SCI 3000",
+              "PSYCH 2201"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4220",
+      "course_name": "Introduction to iOS Programming and Apps",
+      "credit": "3",
+      "course_description": "This course covers Objective-C and uses it for building iOS \napps. It also introduces Xcode, Interface Builder, basic architectural patterns for MVC such as \naction, delegation, and outlets. Additional topics may include online services, mapping, persistence \nwith core data, and single and multiple views.",
+      "prerequisite": {
+        "or_choice": [
+          {
+            "and_required": ["CMP SCI 2261", "CMP SCI 2750", "CMP SCI 3130"]
+          },
+          { "and_required": "Graduate Standing" }
+        ]
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4222",
+      "course_name": "iOS Apps",
+      "credit": "3",
+      "course_description": "This course focuses on building more sophisticated apps using \nObjective-C and the scripting language Swift. May include networking such as web services, Bluetooth \nand wifi connectivity, graphics and animation in 2-d and 3-d, autolayouts, OpenGL, advanced data \nsources such as plist and core data, source control and unit testing. May also discuss security \ntopics. Credit not granted for both CMP SCI 4222 and CMP SCI 5222.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 4220" } },
+      "paired": "CMP SCI 5222"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4250",
+      "course_name": "Programming Languages",
+      "credit": "3",
+      "course_description": "Studies the principles, approaches, and trade-offs in modern \nprogramming languages, including a comparative study of syntax, semantics, and pragmatics. Examines \nmajor programming paradigms: object-oriented, imperative, functional and logic.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["CMP SCI 2261", "CMP SCI 3010"] },
+          { "and_required": "Graduate Standing" }
+        ]
+      },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4280",
+      "course_name": "Program Translation",
+      "credit": "3",
+      "course_description": "Focuses on methods, techniques, and mechanisms used to create \nthe abstraction from high level programming to machine level execution. This course also requires an \nindividual, semester long project.",
+      "prerequisite": {
+        "or_choice": [
+          {
+            "and_required": ["CMP SCI 2750", "CMP SCI 3130", "CMP SCI 4250"]
+          },
+          { "and_required": "Graduate Standing" }
+        ]
+      },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4300",
+      "course_name": "Introduction to Artificial Intelligence",
+      "credit": "3",
+      "course_description": "This course provides an introduction to artificial intelligence. \nThe list of topics may include search, planning, knowledge-based reasoning, probabilistic inference, \nmachine learning, natural language processing, and practical applications. Credit cannot be granted \nfor both CMP SCI 4300 and CMP SCI 5300.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["CMP SCI 2261", "CMP SCI 2750", "CMP SCI 3130"]
+        }
+      },
+      "paired": "CMP SCI 5300"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4320",
+      "course_name": "Introduction to Evolutionary Computation",
+      "credit": "3",
+      "course_description": "This course introduces the concepts of nature-inspired problem solving with artificial evolution using selection, crossover, mutation and inheritance. It discusses applications of evolutionary algorithms, overviews the existing models and instances, and analyzes specific instances such as genetic algorithms, evolutionary programming, evolution strategies, and genetic programming. Credit not granted for both CMP SCI 4320 and CMP SCI 5320.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["CMP SCI 2261", "CMP SCI 2750", "CMP SCI 3130"]
+        }
+      },
+      "paired": "CMP SCI 5300"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4340",
+      "course_name": "Introduction to Machine Learning",
+      "credit": "3",
+      "course_description": "Provides an introduction to machine learning in the context of \napplications such as data mining, natural language processing, and adaptive computer systems. The \ncourse reviews several supervised, unsupervised, and reinforcement machine learning techniques such \nas naive Bayes networks, clustering, and decision trees. Selected concepts in computational learning \ntheory may also be covered. Credit cannot be granted for both CMP SCI 4340 and CMP SCI \n5340.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["CMP SCI 2261", "CMP SCI 2750", "CMP SCI 3130"]
+        }
+      },
+      "paired": "CMP SCI 5340"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4342",
+      "course_name": "Introduction to Data Mining",
+      "credit": "3",
+      "course_description": "This course provides an introduction to data mining principles, \nalgorithms and applications. Topics may include data preprocessing, data transformation, similarity \nand dissimilarity measures, data representation, classification techniques, association analysis, \ncluster analysis, regression, dimension reduction, and anomaly detection. Credit not granted for \nboth CMP SCI 4342 and CMP SCI 5342.",
+      "prerequisite": {
+        "or_choice": { "and_required": ["CMP SCI 2261", "CMP SCI 3130"] }
+      },
+      "paired": "CMP SCI 5342"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4370",
+      "course_name": "Introduction to Biological Data Science",
+      "credit": "3",
+      "course_description": "This course provides an introduction into several key areas of biological data science, with a focus upon genetic data. Relevant background topics in genetics, current issues, and a variety of available resources will be explored. Upon successful completion of this course, the student will be able to evaluate algorithms for analyzing genetic data, including assessments of sources of errors and analysis of time and space complexity; address shortcomings in existing approaches; and implement efficient and effective software for exposing information hidden in genetic data. Credit cannot be granted for both CMP SCI 4370 and CMP SCI 5370.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 3130" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4410",
+      "course_name": "Introduction to Computer Graphics",
+      "credit": "3",
+      "course_description": "This course covers the theoretical foundation and algorithms for \ncomputer graphics. Students learn the basics of graphics programming for modeling, rendering, and \nanimation of 2D and 3D objects, using standard graphics API. A brief discussion of special graphics \nhardware, such as GPU, may be included.  Credit cannot be granted for both CMP SCI 4410 and CMP SCI \n5410.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["CMP SCI 2250", "MATH 2450"] },
+          { "and_required": "Graduate Standing" }
+        ]
+      },
+      "paired": "CMP SCI 5410"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4420",
+      "course_name": "Introduction to Digital Image Processing",
+      "credit": "3",
+      "course_description": "Focuses on image analysis and visual perception. Students learn \ndata structures and algorithms for image processing, region and texture analysis, image filtering, \nedge detection, contour following, and image enhancement in both spatial and frequency domain. Other \ntopics may include color processing, coding for storage, retrieval, transmission, and image \nrestoration. Credit cannot be granted for both CMP SCI 4420 and CMP SCI 5420.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["CMP SCI 2750", "CMP SCI 3130", "MATH 2450"]
+        }
+      },
+      "paired": "CMP SCI 5420"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4500",
+      "course_name": "Introduction to Software Engineering",
+      "credit": "3",
+      "course_description": "Focuses on software development and on the skills required for \nsuccess in the software profession. Topics related to software development may include software \nprocess, models and views, software architectures, documentation, and testing strategies. Topics \nrelated to the profession may include licensing, copyright, trademarks, and professional conduct. \nIndividual and group projects, research, and presentations may be required in this capstone \ncourse.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": [
+            "CMP SCI 2261",
+            "CMP SCI 2750",
+            "CMP SCI 3010",
+            "CMP SCI 3130"
+          ]
+        }
+      },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4520",
+      "course_name": "Introduction to Object-Oriented Analysis and Design",
+      "credit": "3",
+      "course_description": "Covers object-oriented development, illustrated with a visual \nmodelling language and following an agile process. Discusses elements of analysis, requirements, \ndesign, implementation, and deployment such as use cases, static and dynamic diagrams, patterns, and \nframeworks. This course includes a semester long project starting with requirements and culminating \nwith deployment. Credit not granted for both CMP SCI 4520 and CMP SCI 5520.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["CMP SCI 2261", "CMP SCI 3010", "CMP SCI 3130"]
+        }
+      },
+      "paired": "CMP SCI 5520"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4610",
+      "course_name": "Database Management Systems",
+      "credit": "3",
+      "course_description": "Focuses on database theory and applications, with emphasis on \nthe relational model. Topics include database design, modeling, file systems, indexing, integrity \nconstraints, relational algebra, normalization, transaction processing, and concurrency control. \nStudents are exposed to emerging DBMS technologies and applications. Several programming projects \nwill be required, using a popular SQL server.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["CMP SCI 3010", "MATH 3000"] },
+          { "and_required": "Graduate Standing" }
+        ]
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4700",
+      "course_name": "Computer Forensics",
+      "credit": "3",
+      "course_description": "This course explores topics and methodologies for examining \ndigital evidence, along with some principles of the investigative process. Includes memory, file \nsystem, operating system, network, and mobile device forensics. Addresses both theory and hands-on \naspects for conducting digital forensic examinations.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["CMP SCI 2750", "CMP SCI 3010"] },
+          { "and_required": "Graduate Standing" }
+        ]
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4710",
+      "course_name": "Mobile And Ubiquitous Computing",
+      "credit": "3",
+      "course_description": "This course provides an introduction to the rapidly developing \nfield of ubiquitous computing while at the same time exploring more focused topics in the three main \ncategories of this field, namely systems, experience, and sensors. Explores setting up the \ninfrastructure, privacy issues, evaluation of field applications, internationalization, user \ninterfaces, and geolocation analysis.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "CMP SCI 2261" },
+          { "and_required": "Graduate Standing" }
+        ]
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4730",
+      "course_name": "Computer Networks and Communications",
+      "credit": "3",
+      "course_description": "Covers communication systems in the context of the ISO and \nTCP/IP standards for systems interconnection. Covers various types of networks including wide area \nnetworks, local area networks, and fiber optic networks.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["CMP SCI 2750", "MATH 1320"] },
+          { "and_required": "Graduate Standing" }
+        ]
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4732",
+      "course_name": "Introduction to Cryptography for Computer Security",
+      "credit": "3",
+      "course_description": "This course provides an introduction to cryptography as it applies to computer security. It describes modern cryptographic systems and potential attacks on against these systems. Topics may include both symmetric and asymmetric encryption algorithms, authentication, key exchange protocols, onion networks and blockchain technology, as well as potential attacks on these systems. Credit cannot be granted for more than one of CMP SCI 4732, CMP SCI 4780, and CMP SCI 5732.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["MATH 1100", "MATH 1800"] },
+          { "and_required": "Graduate Standing" }
+        ]
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4740",
+      "course_name": "Introduction to High Performance Computing",
+      "credit": "3",
+      "course_description": "This course introduces algorithms for multiprocessor and \nmulti-core architectures. Students learn the models of modern parallel computation and techniques to \ntake advantage of parallel architectures for distributed and shared memory multi-processor \narchitectures. Credit not granted for both CMP SCI 4740 and CMP SCI 5740.",
+      "prerequisite": {
+        "or_choice": { "and_required": ["CMP SCI 2750", "CMP SCI 3130"] }
+      },
+      "paired": "CMP SCI 5740"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4750",
+      "course_name": "Introduction to Cloud Computing",
+      "credit": "3",
+      "course_description": "This course provides an introduction to development and \ndeployment of applications in the cloud space. Touches on different aspects of cloud computing such \nas IaaS, PaaS, and SaaS. Includes significant discussion on legal and security aspects of clouds in \nthe marketplace. May also include public, private, and hybrid clouds, and Internet of Things. Credit \nnot granted for both CMP SCI 4750 and CMP SCI 5750.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 2750" } },
+      "paired": "CMP SCI 5750"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4760",
+      "course_name": "Operating Systems",
+      "credit": "3",
+      "course_description": "Covers the structure of a generic operating system, considering \nin detail the algorithms for interprocess communication, process scheduling, resource management, \nmemory management, file systems, and device management. Presents examples from contemporary \noperating systems. This course also requires practical projects implemented within a modern \noperating system or simulator environment.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["CMP SCI 2750", "CMP SCI 3130"] },
+          { "and_required": "Graduate Standing" }
+        ]
+      },
+      "core": true
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4780",
+      "course_name": "Computer and Network Security",
+      "credit": "3",
+      "course_description": "Covers major issues relevant to providing security in a network \nenvironment. This course includes algorithms and protocols for secure communications between \ncomputers.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 4730" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4782",
+      "course_name": "Information Security",
+      "credit": "3",
+      "course_description": "This course covers topics related to maintaining security in an \norganizational infrastructure, including risk analysis of the environment, access level and control \nincluding multi-factor authentication, and detection capabilities to ensure adequate security \nmonitoring. Additional topics may include network level protections, firewalls, intrusion \ndetection/prevention systems, securing web and mobile applications, securing cloud implementations, \nand overall architectural considerations for system security. Credit not granted for both CMP SCI \n4782 and CMP SCI 5782.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 4730" } },
+      "paired": "CMP SCI 5782"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4792",
+      "course_name": "Introduction to Mobile Computing, Networking, and Security",
+      "credit": "3",
+      "course_description": "This course introduces fundamental concepts of mobile wireless networks, mobile edge computing, and security measures at the edge. It discusses challenges related to mobile edge computing systems in general and may include topics such as crowdsourcing/crowdsensing systems, Quality of Experience (QoE) in real-time mobile services, Internet of Things, scalability, secure and verifiable computing, and vehicular and autonomous driving networks. Credit not granted for both CMP SCI 4792 and CMP SCI 5792.",
+      "prerequisite": {
+        "or_choice": { "and_required": ["CMP SCI 2750", "CMP SCI 2750"] }
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4794",
+      "course_name": "Introduction to Security of IOT Systems",
+      "credit": "3",
+      "course_description": "This course covers the cutting-edge techniques on the emerging edge cloud and wireless/mobile Internet of Things (IoT) systems. It covers the IoT reference architecture, integrated IoT security architecture, major threats and vulnerabilities with the IoT devices and edge cloud, and defense mechanisms. It includes hands-on labs on both the vulnerabilities and defense of the systems. Credit cannot be granted for both CMP SCI 4794 and CMP SCI 5794",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 4730" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4880",
+      "course_name": "Individual Studies",
+      "credit": "1-3",
+      "course_description": "This course allows a student to pursue individual studies under \nthe supervision of a faculty member. It may include development of a software project. The course \nmay be repeated for credit.",
+      "can_select_multiple": "true"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "4890",
+      "course_name": "Topics in Computer Science",
+      "credit": "3",
+      "course_description": "Covers a special topic in computer science to be determined by \nrecent developments in the field and the interests of the instructor. Course may be repeated for \ncredit.",
+      "can_select_multiple": "true"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5012",
+      "course_name": "Enterprise Web Development",
+      "credit": "3",
+      "course_description": "Covers design and implementation issues for enterprise web \ndevelopment, and some popular advanced technologies. Topics include MVC and persistence frameworks, \nsuch as Spring and Hibernate. Other topics may include Java Web services, EJB, messaging standards \nsuch as JMS, and Java EE design patterns. Students will develop enterprise-level web application \nprojects using the technologies covered in this course.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 4010" } },
+      "paired": "CMP SCI 4012"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5020",
+      "course_name": "Android Apps: Android Fundamentals",
+      "credit": "3",
+      "course_description": "Covers the fundamental programming principles, software \narchitecture and user experience considerations underlying handheld software applications and their \ndevelopment environments. Involves in-depth, hands-\u00adon examples, implemented on the Android \nPlatform, and discussion of security. Credit not granted for both CMP SCI 4020 and CMP SCI \n5020.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "CMP SCI 4010" },
+          { "and_required": "Graduate Standing" }
+        ]
+      },
+      "paired": "CMP SCI 4020"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5030",
+      "course_name": "Intelligent Web",
+      "credit": "3",
+      "course_description": "Covers the application of artificial intelligence and other \nmodern techniques to help construct, navigate, and experience the Web. Topics may include retrieval \nmodels, classification, mining, association, topology, and indexing algorithms such as PageRank and \nHITS. Topics are the same as CMP SCI 4030 but material is covered at a greater depth and additional \nprojects are required. Credit cannot be earned for both CMP SCI 4030 and CMP SCI \n5030.",
+      "paired": "CMP SCI 4030"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5130",
+      "course_name": "Advanced Data Structures and Algorithms",
+      "credit": "3",
+      "course_description": "This course covers analysis of time and space complexity of \niterative and recursive algorithms along with performance bounds, design of data structures for \nefficient performance, sorting algorithms, probabilistic algorithms, divide and conquer strategies, \nvarious algorithms on graphs, and NP completeness.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": "An elementary course in analysis of\n\t\t\t\t\talgorithms."
+        }
+      }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5222",
+      "course_name": "Advanced iOS Apps",
+      "credit": "3",
+      "course_description": "Focuses on building sophisticated apps using Objective-C and the \nscripting language Swift. Will cover recent developments in networking such as web services, \nBluetooth and wifi connectivity, graphics and animation in 2-d and 3-d, autolayouts, OpenGL, \nadvanced data sources such as plist and core data, source control and unit testing. May also discuss \nsecurity topics. Credit not granted for both CMP SCI 4222 and CMP SCI 5222.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "CMP SCI 4220" },
+          { "and_required": "Graduate Standing" }
+        ]
+      },
+      "paired": "CMP SCI 4222"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5300",
+      "course_name": "Artificial Intelligence",
+      "credit": "3",
+      "course_description": "This course provides an introduction to artificial intelligence. \nThe list of topics may include search, planning, knowledge-based reasoning, probabilistic inference, \nmachine learning, natural language processing, and practical applications. Credit cannot be granted \nfor both CMP SCI 4300 and CMP SCI 5300.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["CMP SCI 2261", "CMP SCI 2750", "CMP SCI 3130"]
+        }
+      },
+      "paired": "CMP SCI 4300"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5320",
+      "course_name": "Introduction to Evolutionary Computation",
+      "credit": "3",
+      "course_description": "This course introduces the concepts of nature-inspired problem \nsolving population dynamics, Darwinian selection, and inheritance. It discusses problems applicable \nto evolutionary algorithms, overviews the existing models and instances, and analyzes specific \ninstances such as genetic algorithms and genetic programming.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 4300" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5340",
+      "course_name": "Machine Learning",
+      "credit": "3",
+      "course_description": "Provides an introduction to machine learning in the context of \napplications such as data mining, natural language processing and adaptive computer systems. Reviews \nseveral supervised, unsupervised, and reinforcement machine learning techniques such as naive Bayes \nnetworks, clustering and decision trees. Selected concepts in computational learning theory may also \nbe covered. Topics are the same as CMP SCI 4340 but material is covered at a greater depth and \nadditional projects are required. Credit cannot be granted for both CMP SCI 4340 and CMP SCI \n5340.",
+      "paired": "CMP SCI 4340"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5342",
+      "course_name": "Data Mining",
+      "credit": "3",
+      "course_description": "This course provides an introduction to data mining principles, \nalgorithms and applications. Topics may include data preprocessing, data transformation, similarity \nand dissimilarity measures, data representation, classification techniques, association analysis, \ncluster analysis, regression, dimension reduction, and anomaly detection. Credit not granted for \nboth CMP SCI 4342 and CMP SCI 5342.",
+      "prerequisite": {
+        "or_choice": { "and_required": ["CMP SCI 2261", "CMP SCI 3130"] }
+      },
+      "paired": "CMP SCI 4342"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5410",
+      "course_name": "Computer Graphics",
+      "credit": "3",
+      "course_description": "This course covers the theoretical foundation and algorithms for \ncomputer graphics. Students learn the basics of graphics programming for modeling, rendering, and \nanimation of 2D and 3D objects, using standard graphics API. A brief discussion of special graphics \nhardware, such as GPU, may be included.  Credit cannot be granted for both CMP SCI 4410 and CMP SCI \n5410.",
+      "prerequisite": {
+        "or_choice": { "and_required": "MATH 2450 or equivalent" }
+      },
+      "paired": "CMP SCI 4410"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5420",
+      "course_name": "Digital Image Processing",
+      "credit": "3",
+      "course_description": "Covers topics in image analysis and visual perception. Students \nlearn data structures and algorithms for image processing, region and texture analysis, image \nfiltering, edge detection, contour following, and image enhancement in both spatial and frequency \ndomain. Other topics may include color processing, coding for storage, retrieval, transmission, and \nimage restoration. Topics are the same as CMP SCI 4420 but material is covered at a greater depth \nand additional projects are required. Credit cannot be granted for both CMP SCI 4420 and CMP SCI \n5420.",
+      "paired": "CMP SCI 4420"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5500",
+      "course_name": "Software Engineering",
+      "credit": "3",
+      "course_description": "Introduces software engineering as a discipline, discusses \nstages of the software life cycle, compares development models such as waterfall, prototyping and \nincremental/iterative, covers requirements analysis, effort and cost estimation, compares structured \nand object- oriented analysis and design methods, Discusses verification/validation, quality \nassurance, software reliability, testing methods, maintenance, documentation, project management and \nteam structure, metrics, and available tools."
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5520",
+      "course_name": "Object Oriented Analysis and Design",
+      "credit": "3",
+      "course_description": "Covers object-oriented development, illustrated with visual \nmodeling language and following an agile process. Discusses elements of analysis, requirements, \ndesign, implementation, and deployment such as use cases, static and dynamic diagrams, patterns and \nframeworks. A semester long project, starting with requirements and culminating with deployment is \nrequired. Topics are the same as CMP SCI 4520 but material covered at a greater depth and additional \nprojects are required. Credit not granted for both CMP SCI 4520 and CMP SCI \n5520.",
+      "paired": "CMP SCI 4520"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5700",
+      "course_name": "Computer Systems",
+      "credit": "3",
+      "course_description": "This course focuses on parallel computing architectures, \nincluding RISC, pipelining, vector processing, SIMD, MIMD, and array processing. It introduces \ndifferent memory and I/O subsystems, hardware description languages, and it demonstrates performance \nenhancement using different architectures studied."
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5740",
+      "course_name": "High Performance Computing",
+      "credit": "3",
+      "course_description": "This course introduces algorithms for multiprocessor and \nmulti-core architectures. Students learn the models of modern parallel computation and techniques to \ntake advantage of parallel architectures for distributed and shared memory multi-processor \narchitectures. Credit not granted for both CMP SCI 4740 and CMP SCI 5740.",
+      "paired": "CMP SCI 4740"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5750",
+      "course_name": "Cloud Computing",
+      "credit": "3",
+      "course_description": "Provides an introduction to development and deployment of \napplications in the cloud space. Touches on different aspects of cloud computing such as IaaS, PaaS, \nand SaaS. Includes significant discussion on legal and security aspects of clouds in the \nmarketplace. May also include public, private, and hybrid clouds, and Internet of Things. Credit not \ngranted for both CMP SCI 4750 and CMP SCI 5750.",
+      "paired": "CMP SCI 4750"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5782",
+      "course_name": "Advanced Information Security",
+      "credit": "3",
+      "course_description": "The topics covered in this course are risk analysis to \nunderstand the security requirements of an environment; access controls to understand the level of \ncontrols needed for different practical situations, including multi-factor authentication; detection \ncapabilities, to ensure adequate security monitoring for information systems; network level \nprotections, with firewalls, intrusion detection/prevention systems; securing the web and mobile \napplications and cloud implementations; and overall security architecture to understand how various \ncontrols can provide the security-in-depth that is required in the current environment. Credit not \ngranted for both CMP SCI 4782 and CMP SCI 5782.",
+      "paired": "CMP SCI 4782"
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5880",
+      "course_name": "Computer Science Independent Project",
+      "credit": "1-3",
+      "course_description": "This course offers the student an opportunity to work on an \nadviser-supervised project, individually or in a group A student may repeat the course for up to 6 \ncredit hours total, but at most 6 hours can be accumulated for CMP SCI 5880 and CMP SCI \n6900",
+      "can_select_multiple": "true",
+      "prerequisite": { "or_choice": { "and_required": "Graduate Standing" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "5890",
+      "course_name": "Topics in Computer Science",
+      "credit": "1-3",
+      "course_description": "This course offers various topics not offered on a regular \nbasis. It may be taken more than once for credit with the consent of the \ndepartment",
+      "can_select_multiple": "true",
+      "prerequisite": { "or_choice": { "and_required": "Graduate Standing" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "6320",
+      "course_name": "Advances in Evolutionary Computation",
+      "credit": "3",
+      "course_description": "This course focuses on some advanced topics in Genetic and \nEvolutionary Computation, both theoretical and practical. Topics may include competent genetic \nalgorithms, learning classifier systems, and Markov models. A substantial part of the course will be \nbased on recent literature. Projects may involve literature research, developing specific \napplications or implementing a specific model.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 5320" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "6340",
+      "course_name": "Genetic Programming",
+      "credit": "3",
+      "course_description": "This course provides an in- depth exploration of Genetic \nProgramming, including advanced concepts such as scalability, evolution of modularity and \nregularity, and constrained evolution with CGP, STGP, or CFG-based GP. It may be reading, research, \nor application oriented.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 5320" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "6410",
+      "course_name": "Topics in Computer Graphics",
+      "credit": "3",
+      "course_description": "This course covers various aspects of advanced graphics \ntechniques, such as geometric modeling, rendering, shading, texturing, and computer animation The \ncourse provides an in-depth study of recent advanced topics in computer \ngraphics.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 4410" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "6420",
+      "course_name": "Topics in Image Processing and Multimedia",
+      "credit": "3",
+      "course_description": "This course covers new developments in digital image processing, \ncomputer vision, and multimedia. Topics to be covered may include image databases, object tracking, \nand large-scale data visualization.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 5420" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "6740",
+      "course_name": "High Performance Computing",
+      "credit": "3",
+      "course_description": "Looks at the current state of the art in parallel and \ndistributed computing, with emphasis on programming in such environments. Introduction to the state \nof the art in code optimization and grid computing environments.",
+      "prerequisite": { "or_choice": { "and_required": "CMP SCI 5740" } }
+    },
+    {
+      "subject": "CMP SCI",
+      "course_number": "6900",
+      "course_name": "Thesis",
+      "credit": "1-6",
+      "course_description": "This course is designed for those students intending to present \na thesis as part of their MS program At most 6 hours can be accumulated for CMP SCI 5880 and CMP SCI \n6900",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": [
+            "Completion of at least 12 graduate\n\t\t\t\t\tcredits",
+            "Approval of research topic by thesis\n\t\t\t\t\tadviser"
+          ]
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "0005",
+      "course_name": "Intermediate Algebra",
+      "credit": "3",
+      "course_description": "Preparatory material for college level mathematics courses. \nCovers systems of linear equations and inequalities, polynomials, rational expressions, exponents, \nquadratic equations, graphing linear and quadratic functions. This course carries no credit toward \nany baccalaureate degree.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1020",
+      "course_name": "Contemporary Mathematics",
+      "credit": "3",
+      "course_description": "Presents methods of problem solving, centering on problems and \nquestions which arise naturally in everyday life. May include aspects of algebra and geometry, the \nmathematics of finance, probability and statistics, exponential growth, and other topics chosen from \ntraditional and contemporary mathematics which do not employ the calculus. May be taken to meet the \nmathematical proficiency requirement, but may not be used as a prerequisite for other mathematics \ncourses. Designed for students who do not plan to take Calculus. Credit will not be granted for MATH \n1020 if credit has been granted for MATH 1310, MATH 1800, MATH 1100, MATH 1102, or MATH 1105. \nConcurrent enrollment in MATH 1020 and any of these courses is not permitted.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+        }
+      },
+      "paired": [
+        "MATH 1100",
+        "MATH 1102",
+        "MATH 1105",
+        "MATH 1310",
+        "MATH 1800"
+      ]
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1021",
+      "course_name": "Choice and Chance",
+      "credit": "3",
+      "course_description": "This course provides an introduction to inductive logic and the \ntheory of probability in an organized and systematic way, so as to give students tools for more \neffective decision-making. We will introduce the probability calculus, basic concepts of utility \ntheory, decision theory and different approaches to understanding probability. This course is \ndesigned to be accessible to students of all levels. Satisfies mathematics \nproficiency.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+        }
+      },
+      "paired": "PHIL 1021"
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1025",
+      "course_name": "Geometry in the Real World",
+      "credit": "3",
+      "course_description": "Presents topics in geometry designed to enrich the student's \nunderstanding of mathematics. Geometry as it applies to the physical world and such fields as art, \nmusic, nature, motion, architecture and city planning will be examined. This course is designed to \nbe accessible to students of all levels. Satisfies mathematics proficiency.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1030",
+      "course_name": "College Algebra",
+      "credit": "3",
+      "course_description": "Topics in algebra and probability, polynomial functions, the \nbinomial theorem, logarithms, exponentials, and solutions to systems of \nequations.",
+      "prerequisite": {
+        "or_choice": [
+          {
+            "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+          },
+          { "and_required": "Approval of the department." }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1035",
+      "course_name": "Trigonometry",
+      "credit": "2",
+      "course_description": "A study of the trigonometric and inverse trigonometric functions \nwith emphasis on trigonometric identities and equations.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": { "@concurrent": "true", "#text": "MATH 1030" } },
+          { "and_required": { "@concurrent": "true", "#text": "MATH 1040" } },
+          {
+            "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+          }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1040",
+      "course_name": "College Algebra for Science and Engineering",
+      "credit": "3",
+      "course_description": "Topics in this course include factoring, simplifying rational \nfunctions, functions and their graphs, solving linear and nonlinear equations, polynomial functions, \ninverse functions, the binomial theorem, logarithms, exponentials, solutions to systems of equations \nusing matrices, solutions to nonlinear systems of equations, and sequences.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1045",
+      "course_name": "PreCalculus",
+      "credit": "3",
+      "course_description": "Topics in this course include factoring, simplifying rational \nfunctions, functions and their graphs, solving linear and nonlinear equations, polynomial functions, \ninverse functions, the binomial theorem, logarithms, exponentials, solutions to systems of equations \nusing matrices, solutions to nonlinear systems of equations, and sequences. Students will also study \ntrigonometric and inverse trigonometric functions with emphasis on trigonometric identities and \nequations.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1100",
+      "course_name": "Basic Calculus",
+      "credit": "3",
+      "course_description": "Introduction to plane analytic geometry and basic differential \nand integral calculus with application to various areas. No credit for Mathematics majors. Credit \nnot granted for both MATH 1800 and MATH 1100.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 1030" },
+          { "and_required": "MATH 1040" },
+          {
+            "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+          }
+        ]
+      },
+      "paired": "MATH 1800"
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1102",
+      "course_name": "Finite Mathematics",
+      "credit": "3",
+      "course_description": "Introductory logic and set theory, partitions and counting \nproblems, elementary probability theory, stochastic processes, Markov chains, vectors and matrices, \nlinear programming, and game theory.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 1030" },
+          { "and_required": "MATH 1040" },
+          {
+            "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+          }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1105",
+      "course_name": "Basic Probability and Statistics",
+      "credit": "3",
+      "course_description": "An introduction to probability and statistics. Topics include \nthe concept of probability and its properties, descriptive statistics, discrete and continuous \nrandom variables, expected value, distribution functions, the central limit theorem, random sampling \nand sampling distributions. Credit not granted for more than one of MATH 1310, MATH 1320 and MATH \n1105.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 1030" },
+          { "and_required": "MATH 1040" },
+          {
+            "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+          }
+        ]
+      },
+      "paired": ["MATH 1310", "MATH 1320"]
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1150",
+      "course_name": "Structure of Mathematical Systems I",
+      "credit": "3",
+      "course_description": "A study of sets, relations, functions, whole numbers; the \nintegers and their properties, and the rational and real number systems",
+      "prerequisite": {
+        "or_choice": [
+          {
+            "and_required": "MATH 1030 no more than 2 years prior to enrollment in\n\t\t\t\t\tthis course"
+          },
+          {
+            "and_required": [
+              "45 hours of college credit",
+              "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1310",
+      "course_name": "Elementary Statistical Methods",
+      "credit": "3",
+      "course_description": "An introduction to the basic tools and elementary methods of \nstatistics, such as testing of hypotheses, analysis of variance, method of least squares, and time \nseries. A student may not receive credit for more than one of MATH 1310, MATH 1320, and MATH \n1105.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 1030" },
+          { "and_required": "MATH 1040" },
+          {
+            "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+          }
+        ]
+      },
+      "paired": ["MATH 1105", "MATH 1320"]
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1320",
+      "course_name": "Applied Statistics I",
+      "credit": "3",
+      "course_description": "This is the first course of a one-year sequence in introductory \nprobability and statistics. It provides a comprehensive introduction to those models and methods \nwhich are most likely to be encountered by students in their careers in applied mathematics and the \nsciences. Topics include descriptive statistics, basics of probability theory, random variables and \ntheir distributions, sampling distributions, confidence intervals, and hypothesis testing for \npopulation means and population proportions. A student may not receive credit for more than one of \nMATH 1320, MATH 1310 and MATH 1105.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 1100" },
+          { "and_required": "MATH 1800" }
+        ]
+      },
+      "paired": ["MATH 1105", "MATH 1310"],
+      "core": true
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1800",
+      "course_name": "Analytic Geometry and Calculus I",
+      "credit": "5",
+      "course_description": "his course provides an introduction to differential and integral \ncalculus. Topics include limits, derivatives, related rates, Newton\\x27s method, the Mean-Value \nTheorem, Max-Min problems, the integral, the Fundamental Theorem of Integral Calculus, areas, \nvolumes, and average values.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["MATH 1030", "MATH 1035"] },
+          { "and_required": ["MATH 1035", "MATH 1040"] },
+          {
+            "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+          },
+          { "and_required": "Approval of the department" }
+        ],
+        "additional_preq": "a satisfactory ACT Math score along with a satisfactory \nscore on the university\\x27s trigonometry examination, or a satisfactory score on both the \nuniversity\\x27s mathematics proficiency examination and the university\\x27s trigonometry \nexamination."
+      },
+      "core": true
+    },
+    {
+      "subject": "MATH",
+      "course_number": "1900",
+      "course_name": "Analytic Geometry and Calculus II",
+      "credit": "5",
+      "course_description": "Topics include conic sections, rotations of axes, polar \ncoordinates, exponential and logarithmic functions, inverse (trigonometric) functions, integration \ntechniques, applications of the integral (including mass, moments, arc length, and hydrostatic \npressure), parametric equations, infinite series, power and Taylor series",
+      "prerequisite": { "or_choice": { "and_required": "MATH 1800" } },
+      "core": true
+    },
+    {
+      "subject": "MATH",
+      "course_number": "2000",
+      "course_name": "Analytic Geometry and Calculus III",
+      "credit": "5",
+      "course_description": "Topics include vectors, cylindrical and spherical coordinates, \nvector-valued functions, arc length and curvature, functions of several variables, partial and \ndirectional derivatives, gradients, extrema, Lagrange multipliers, multiple integrals, change of \nvariables, surface area, vector fields, Stokes\\x27 Theorem",
+      "prerequisite": { "or_choice": { "and_required": "MATH 1900" } }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "2020",
+      "course_name": "Introduction to Differential Equations",
+      "credit": "3",
+      "course_description": "Topics will be chosen from linear differential equations, \nequations with constant coefficients, Laplace transforms, power series solutions, systems of \nordinary differential equations.",
+      "prerequisite": { "or_choice": { "and_required": "MATH 2000" } }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "2450",
+      "course_name": "Elementary Linear Algebra",
+      "credit": "3",
+      "course_description": "An introduction to linear algebra. Topics will include complex \nnumbers, geometric vectors in two and three dimensions and their linear transformations, the algebra \nof matrices, determinants, solutions of systems of equations, eigenvalues and \neigenvectors.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 1100" },
+          { "and_required": "MATH 1900" }
+        ]
+      },
+      "core": true
+    },
+    {
+      "subject": "MATH",
+      "course_number": "2510",
+      "course_name": "Structure of Mathematical Systems II",
+      "credit": "3",
+      "course_description": "An introduction to probability and statistics. An intuitive \nstudy of elementary geometry. Introduction to the deductive theory of geometry and to coordinate \ngeometry.",
+      "prerequisite": { "or_choice": { "and_required": "MATH 1150" } }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "3000",
+      "course_name": "Discrete Structures",
+      "credit": "3",
+      "course_description": "Treats fundamental ideas in discrete structures and serves as a \nfoundation for subsequent course in both Mathematics and Computer Science. Provides an introduction \nto techniques of mathematical reasoning with examples derived from computer science. Topics include \nlogic, set algebra, equivalence relations and partitions, functions, mathematical induction, \nelementary number theory, cardinality, recurrence relations, basic combinatorial methods, trees and \ngraphs.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["CMP SCI 1250 or equivalent", "MATH 1100"] },
+          { "and_required": ["CMP SCI 1250 or equivalent", "MATH 1900"] }
+        ]
+      },
+      "core": true
+    },
+    {
+      "subject": "MATH",
+      "course_number": "3100",
+      "course_name": "Problem Solving In Mathematics",
+      "credit": "3",
+      "course_description": "Course will train students to solve and write solutions to \nchallenging mathematical problems, like those found in competitive exams like the Putnam \nExam.",
+      "prerequisite": { "or_choice": { "and_required": "MATH 2000" } }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "3520",
+      "course_name": "Structure of Mathematical Systems III",
+      "credit": "3",
+      "course_description": "Together with MATH 1150 and 2510, this course teaches \nmathematics necessary for middle school mathematics certification. Topics from MATH 1150 and 2510 \nare continued. Other topics include geometric constructions, similarity, coordinate geometry, normal \ndistribution, combinatorics, and trigonometry. Credit will be granted only toward the B.S. in \neducation degree in Early Childhood Education, Elementary Education, Middle School Education and \nSpecial Education.",
+      "prerequisite": { "or_choice": { "and_required": "MATH 2510" } }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4010",
+      "course_name": "Financial Mathematics I",
+      "credit": "3",
+      "course_description": "An introduction to the theory of interest, annuities (certain), \nannuities with differing pay periods, amortization schedules and sinking funds.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["MATH 1100", "LOG OM 3300"] },
+          { "and_required": ["CMP SCI 1320", "MATH 1100"] },
+          { "and_required": ["MATH 1900", "LOG OM 3300"] },
+          { "and_required": ["CMP SCI 1320", "MATH 1900"] }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4020",
+      "course_name": "Financial Mathematics II",
+      "credit": "3",
+      "course_description": "Premium-discount formula for bonds, bond amortization, term \nstructure of interest rates and pricing theory for options.",
+      "prerequisite": { "or_choice": { "and_required": "MATH 4010" } }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4030",
+      "course_name": "Applied Mathematics I",
+      "credit": "3",
+      "course_description": "Topics chosen from Fourier series, special functions, partial \ndifferential equations, and boundary value problems",
+      "prerequisite": {
+        "or_choice": { "and_required": ["MATH 2020", "MATH 2450"] }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4060",
+      "course_name": "Applied Differential Equations",
+      "credit": "3",
+      "course_description": "The study of ordinary differential equations and partial \ndifferential equations is continued with applications in such areas as physics engineering and \nbiology",
+      "prerequisite": {
+        "or_choice": { "and_required": ["MATH 2020", "MATH 2450"] }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4100",
+      "course_name": "Real Analysis I",
+      "credit": "3",
+      "course_description": "Introduction to real analysis in one variable Topics include \nthe real number system, limits, continuity, differentiability, and sequences and series of \nfunctions",
+      "prerequisite": {
+        "or_choice": { "and_required": ["MATH 2000", "MATH 3000"] }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4160",
+      "course_name": "Complex Analysis I",
+      "credit": "3",
+      "course_description": "Complex numbers and their geometrical representation, point \nsets, analytic functions of a complex variable, complex integration, Taylor and Laurent series, \nresidue theorem, conformal mapping.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 2020" },
+          { "and_required": ["MATH 2000", "MATH 3000"] }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4200",
+      "course_name": "Mathematical Statistics I",
+      "credit": "3",
+      "course_description": "Introduction to the theory of probability and statistics using \nconcepts and methods of calculus",
+      "prerequisite": {
+        "or_choice": { "and_required": ["MATH 1320", "MATH 2000"] }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4210",
+      "course_name": "Mathematical Statistics II",
+      "credit": "3",
+      "course_description": "Continuation of MATH 4200 Sampling distribution, estimation \ntheory, properties of estimators, hypothesis testing, Neyman-Pearson Theorem, likelihood ratio \ntests, introduction of analysis of variance and linear models Basics of some nonparametric \nprocedures",
+      "prerequisite": { "or_choice": { "and_required": "MATH 4200" } }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4230",
+      "course_name": "Numerical Analysis I",
+      "credit": "3",
+      "course_description": "Solutions of equations, interpolation and approximation, \nnumerical differentiation and integration, and numerical solution of initial value problems in \nordinary differential equations. Selected algorithms will be programmed for solution on \ncomputers.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": [
+            "MATH 2020",
+            "MATH 2450",
+            "Ability to program in an upper-level\n\t\t\t\t\tlanguage."
+          ]
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4260",
+      "course_name": "Introduction to Stochastic Processes",
+      "credit": "3",
+      "course_description": "Basic theory and applications of stochastic processes Markov \nchains, martingales, recurrent and transient states, stationary distributions, ergodic theorem, \nrenewal processes, discrete martingales and stationary processes",
+      "prerequisite": { "or_choice": { "and_required": "MATH 4200" } }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4350",
+      "course_name": "Theory of Numbers",
+      "credit": "3",
+      "course_description": "Properties of integers, multiplicative functions, congruences, \nprimitive roots, and quadratic residues",
+      "prerequisite": {
+        "or_choice": { "and_required": ["MATH 2000", "MATH 3000"] }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4390",
+      "course_name": "Topics in Probability and Statistics",
+      "credit": "3",
+      "course_description": "A seminar on special topics in probability and statistics to be \ndetermined by the interests of the instructor May be determined by the interests of the instructor \nMay be repeated for credit provided different topics are studied",
+      "can_select_multiple": "true",
+      "prerequisite": {
+        "or_choice": { "and_required": "Consent of Instructor" }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4400",
+      "course_name": "Introduction to Abstract Algebra I",
+      "credit": "3",
+      "course_description": "Introduction to groups, rings, and fields, with emphasis on \ngroups and rings",
+      "prerequisite": {
+        "or_choice": { "and_required": ["MATH 2000", "MATH 3000"] }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4450",
+      "course_name": "Linear Algebra",
+      "credit": "3",
+      "course_description": "Topics selected from vector spaces, bases, linear \ntransformations, matrices, canonical forms, eigenvalues, hermitian and unitary matrices, inner \nproduct spaces, and quadratic forms",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["MATH 2000", "MATH 2450", "MATH 3000"]
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4500",
+      "course_name": "Special Readings",
+      "credit": "1-10",
+      "course_description": null,
+      "can_select_multiple": "true",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["MATH 2000", "MATH 3000", "Consent of Instructor"]
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4550",
+      "course_name": "Combinatorics",
+      "credit": "3",
+      "course_description": "Advanced counting methods are introduced, including the use of \ngenerating functions for the solution of recurrences and difference equations Additional topics may \ninclude: graphs and trees, combinatorial designs, combinatorial games, errorcorrecting codes, and \nfinite-state machines",
+      "prerequisite": {
+        "or_choice": { "and_required": ["MATH 2000", "MATH 3000"] }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4660",
+      "course_name": "Foundations of Geometry",
+      "credit": "3",
+      "course_description": "A development of portions of Euclidean geometry from a selected \nset of axioms, including a discussion of consistency, independence, categoricity, and completeness \nof the axioms",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["MATH 2000", "MATH 3000"] },
+          { "and_required": "Consent of the department" }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4670",
+      "course_name": "Introduction to Non-Euclidean Geometry",
+      "credit": "3",
+      "course_description": "A summary of the history of the non- Euclidean geometries and a \nstudy of hyperbolic plane geometry",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["MATH 2000", "MATH 3000"] },
+          { "and_required": "Consent of the department" }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4800",
+      "course_name": "Introduction to Topology",
+      "credit": "3",
+      "course_description": "A study of topological spaces, including the concepts of limit, \ncontinuity, connectedness, compactness, etc Special emphasis placed on, and examples taken from, the \nspace of real numbers",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["MATH 2000", "MATH 3000"] },
+          { "and_required": "Consent of the department" }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "4890",
+      "course_name": "Topics in Mathematics",
+      "credit": "3",
+      "course_description": "A seminar on special topics in mathematics to be determined by \nthe interests of the instructor May be repeated for credit provided different topics are \nstudied",
+      "can_select_multiple": "true",
+      "prerequisite": {
+        "or_choice": { "and_required": "Consent of the instructor" }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5060",
+      "course_name": "Computational Harmonic Analysis",
+      "credit": "3",
+      "course_description": "The course covers the basic of Fourier analysis and wavelet \nanalysis. Topics include Fourier transforms and series, discrete Fourier transform, discrete cosine \ntransform ad their fast computational schemes, fast wavelet transform, and the lifting scheme. \nAdditional topics include industrial standards for image compression and several aspects of signal \nprocessing.",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["MATH 4030", "MATH 4100", "MATH 4450"]
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5100",
+      "course_name": "Real Analysis II",
+      "credit": "3",
+      "course_description": "Introduction to measure and integration Topics include the \nRiemannStieltjes integral, Lebesgue measure, measurable functions, the Lebesgue integral, \nRadon-Nikodym and Fubini theorems and the basics of Lp-spaces",
+      "prerequisite": { "or_choice": { "and_required": "MATH 4100" } }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5110",
+      "course_name": "Differentiable Manifolds",
+      "credit": "3",
+      "course_description": "An introduction to smooth manifolds and maps Topics will include \nthe Implicit Function Theorem, Sard\\x27s Theorem, transversality, intersection and degree theory, \ndifferential forms and integration on manifolds",
+      "prerequisite": {
+        "or_choice": {
+          "and_required": ["MATH 4100", "MATH 4450", "MATH 4800"]
+        }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5140",
+      "course_name": "Set Theory and Metric Spaces",
+      "credit": "3",
+      "course_description": "Na?ve set theory, cardinal arithmetic, ordinal numbers, the \naxiom of choice and equivalents, metric spaces, convergence, continuity, compactness, contraction \nprinciples and applications Construction of completions and examples like the real numbers and \np-adic numbers Other topics could include the Stone-Weierstrass theorem and metrizability \ntheorems",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 4100" },
+          { "and_required": "Consent of the instructor" }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5160",
+      "course_name": "Complex Analysis II",
+      "credit": "3",
+      "course_description": "A second course in complex analysis, emphasizing the theory of \nanalytic functions, and including various topics like the Riemann mapping theorem, normal families, \nanalytic continuation, representations of analytic functions, and elliptic \nfunctions",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": ["MATH 4160", "MATH 4100"] },
+          { "and_required": ["MATH 4160", "MATH 4800"] }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5320",
+      "course_name": "Applied Statistics",
+      "credit": "3",
+      "course_description": "The course studies classical and recently developed statistical \nprocedures selected from areas including analysis of variance, multivariate analysis, nonparametric \nor semiparametric methods and generalized linear models. Emphasis is on application of procedures, \nincluding the rationale underlying choice of procedures.",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 4210" },
+          { "and_required": "Consent of the instructor" }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5500",
+      "course_name": "Directed Readings",
+      "credit": "1-6",
+      "course_description": "Independent readings at an advanced level",
+      "can_select_multiple": "true",
+      "prerequisite": {
+        "or_choice": { "and_required": "Consent of the instructor" }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5550",
+      "course_name": "Topics in Advanced Mathematics for the Teacher",
+      "credit": "3",
+      "course_description": "This course will look at various topics in algebra, analysis, \nand geometry that will deepen a teacher\\x27s understanding of the mathematics of the precollegiate \ncurriculum It can be taken more than once for credit",
+      "can_select_multiple": "true",
+      "prerequisite": {
+        "or_choice": { "and_required": "Consent of the instructor" }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5600",
+      "course_name": "Topics in Computation",
+      "credit": "3",
+      "course_description": "The course will cover various advanced topics in computation \nand can be taken more than once for credit Examples of such topics are: computer graphics, computer \narchitecture, theories of language, analysis of operating systems, numerical geometry and computer \naided design, etc",
+      "can_select_multiple": "true",
+      "prerequisite": {
+        "or_choice": { "and_required": "Consent of the instructor" }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5700",
+      "course_name": "Topics in Applied Mathematics",
+      "credit": "3",
+      "course_description": "This course will cover various advanced topics in applied \nmathematics, and can be taken more than once for credit Examples of such topics are: Fast \ntransforms, digital filters, etc",
+      "can_select_multiple": "true",
+      "prerequisite": {
+        "or_choice": { "and_required": "Consent of the instructor" }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5710",
+      "course_name": "Topics in Analysis",
+      "credit": "3",
+      "course_description": "Topics selected from the areas of Fourier analysis, harmonic \nanalysis, functional analysis, special functions, generalized functions, and partial differential \nequations May be taken more than once for credit with consent of department",
+      "can_select_multiple": "true",
+      "prerequisite": {
+        "or_choice": [
+          { "and_required": "MATH 5100" },
+          { "and_required": "Consent of the instructor" }
+        ]
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "5820",
+      "course_name": "Topics in Algebra",
+      "credit": "3",
+      "course_description": "Topics selected from the theory of groups, rings, fields, \nalgebras, and other algebraic systems May be taken more than once for credit with consent of \ndepartment",
+      "can_select_multiple": "true",
+      "prerequisite": {
+        "or_choice": { "and_required": "Consent of the instructor" }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "6900",
+      "course_name": "Master\\x27s Thesis",
+      "credit": "1-6",
+      "course_description": "Thesis work under the supervision of a faculty member The \ncourse is designed for those students intending to present a thesis as part of their MA program \nStudents who do not write a thesis cannot apply MATH 6900 to a degree",
+      "prerequisite": {
+        "or_choice": { "and_required": "Consent of the instructor" }
+      }
+    },
+    {
+      "subject": "MATH",
+      "course_number": "7990",
+      "course_name": "Ph.D. Dissertation Research",
+      "credit": "1-9",
+      "course_description": "May be taken for no more than nine hours",
+      "prerequisite": {
+        "additional_preq": "Completion of comprehensive exams."
+      }
+    },
+    {
+      "subject": "ENGL",
+      "course_number": "3130",
+      "course_name": "Technical Writing",
+      "credit": "3",
+      "course_description": "",
+      "core": true
+    },
+    {
+      "subject": "CULT",
+      "course_number": "1001",
+      "course_name": "Cultural Diversity",
+      "credit": "3",
+      "course_description": "",
+      "core": true
+    }
+  ]
+}

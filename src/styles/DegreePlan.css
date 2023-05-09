@@ -1,0 +1,67 @@
+.degree-plan {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.degree-plan-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.degree-plan-grid.seasons-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media only screen and (max-width: 768px) {
+  .degree-plan-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .degree-plan-grid.seasons-3 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.degree-plan h3 {
+  margin-bottom: 15px;
+}
+
+.degree-plan table {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.degree-plan td {
+  padding: 5px 10px;
+}
+
+.degree-plan td:nth-child(2) {
+  text-align: right;
+}
+
+.degree-plan tr {
+  background-color: white;
+}
+
+.degree-plan tr:nth-child(odd) {
+  background-color: rgba(186, 12, 47, 0.3);
+}
+
+.degree-plan thead {
+  font-weight: bold;
+}
+
+.degree-plan tr.total {
+  background-color: transparent;
+}
+
+.degree-plan tr.total td:nth-child(2) {
+  background-color: rgba(186, 12, 47, 0.8);
+  color: white;
+}
