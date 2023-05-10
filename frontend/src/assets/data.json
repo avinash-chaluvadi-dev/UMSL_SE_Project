@@ -1,0 +1,1104 @@
+{
+    "Introduction to Computing": {
+        "subject": "CMP SCI",
+        "course_number": "1250",
+        "credit": "3",
+        "course_description": "Provides an introduction to the concepts of computation, problem \nsolving, and computer systems, Covers fundamental programming constructs, basic data types, and \nmodularization using a modern high level language. Problem solving skills are developed through a \nprogression of programming projects.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D,E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D,E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": "MATH 1030 with B- or better"
+                },
+                {
+                    "and_required": "MATH 1100"
+                },
+                {
+                    "and_required": "MATH 1800"
+                },
+                {
+                    "and_required": "Proctored ALEKS Score"
+                }
+            ]
+        }
+    },
+    "Programming and Data Structures": {
+        "subject": "CMP SCI",
+        "course_number": "2250",
+        "credit": "3",
+        "course_description": "A continuation of CMP SCI 1250. Discusses properties and \nimplementation of abstract data types such as lists, trees, stacks and queues. Introduces procedural \nand class abstraction, basic program architecture, use of interfaces, modular programming, and file \nprocessing.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "CMP SCI 1250"
+            }
+        }
+    },
+    "Object-Oriented Programming": {
+        "subject": "CMP SCI",
+        "course_number": "2261",
+        "credit": "3",
+        "course_description": "Introduces object-oriented concepts, terminology, and notation \n(UML) using Java. Covers encapsulation, classes, objects, inheritance, and the use of class \nlibraries. Additional topics may include graphical user interfaces, applets, and related tools and \ntechnologies.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "CMP SCI 2250"
+            }
+        }
+    },
+    "Computer Architecture and Organization": {
+        "subject": "CMP SCI",
+        "course_number": "2700",
+        "credit": "3",
+        "course_description": "Introduces details of computer systems from architectural and \norganizational points of view. Covers data representation, basic digital logic circuits, memory \ntypes and hierarchies, I/O and storage devices, CPU architectures such as RISC, CISC, parallel, and \nmulti-core.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": [
+                    "CMP SCI 1250",
+                    {
+                        "@concurrent": "true",
+                        "#text": "CMP SCI 2250"
+                    }
+                ]
+            }
+        }
+    },
+    "System Programming and Tools": {
+        "subject": "CMP SCI",
+        "course_number": "2750",
+        "credit": "3",
+        "course_description": "Covers systems programming, scripting, libraries, utilities, and \ndevelopment tools. Additional programming topics include piping, binary files, exception handling, \ncommand-line arguments and symbolic debugging. This course also explores tools available in the \nUnix/Linus environments.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": [
+                    "CMP SCI 2250",
+                    {
+                        "@concurrent": "true",
+                        "#text": "CMP SCI 2700"
+                    }
+                ]
+            }
+        }
+    },
+    "Web Programming": {
+        "subject": "CMP SCI",
+        "course_number": "3010",
+        "credit": "3",
+        "course_description": "Provides a survey of current Web technologies including markup \nlanguages (such as HTML/XHTML, CSS, XML), client side languages (such as JavaScript), server side \nlanguages (such as PERL, PHP), and Web protocols. This course requires client-server computing \nprojects.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": {
+                    "@concurrent": "true",
+                    "#text": "CMP SCI 2261"
+                }
+            }
+        }
+    },
+    "Design and Analysis of Algorithms": {
+        "subject": "CMP SCI",
+        "course_number": "3130",
+        "credit": "3",
+        "course_description": "Addresses the design and analysis of fundamental algorithms in \ncomputer science. Studies basic sorting algorithms priority queues, order statistics, search trees, \nand hash tables. Analysis techniques may involve time and space complexity analysis of both \niterative and recursive algorithms, analysis of algorithm correctness, and amortized complexity \nanalysis. Additional topics may include data compression, string manipulation, greedy algorithms, \ndynamic programming, and graph traversal.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": [
+                    "CMP SCI 2250",
+                    "MATH 1320",
+                    "MATH 3000"
+                ]
+            }
+        }
+    },
+    "Assembly Language Programming": {
+        "subject": "CMP SCI",
+        "course_number": "3710",
+        "credit": "3",
+        "course_description": "Explore machine architecture concepts and principles through a \nstudy of assembly language programming. Topics covered include integer and floating point \narithmetic, procedures, conditional processing, strings, macros, and interfaces to high level \nlanguages. Programming projects using a commercially available assembly language will be \nrequired.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "CMP SCI 2700"
+            }
+        }
+    },
+    "Advanced Web Development with Java": {
+        "subject": "CMP SCI",
+        "course_number": "4010",
+        "credit": "3",
+        "course_description": "Covers more advanced Java topics, along with related concepts \nand technologies for Web development. Topics may include database connectivity, multithreading, \nsecurity, networking, MVC pattern, testing and source control for Java applications, and server-side \ntopics such as servlets and web servers.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "CMP SCI 2261",
+                        "CMP SCI 3010"
+                    ]
+                },
+                {
+                    "and_required": "Graduate Standing"
+                }
+            ]
+        }
+    },
+    "Programming Languages": {
+        "subject": "CMP SCI",
+        "course_number": "4250",
+        "credit": "3",
+        "course_description": "Studies the principles, approaches, and trade-offs in modern \nprogramming languages, including a comparative study of syntax, semantics, and pragmatics. Examines \nmajor programming paradigms: object-oriented, imperative, functional and logic.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "CMP SCI 2261",
+                        "CMP SCI 3010"
+                    ]
+                },
+                {
+                    "and_required": "Graduate Standing"
+                }
+            ]
+        }
+    },
+    "Program Translation": {
+        "subject": "CMP SCI",
+        "course_number": "4280",
+        "credit": "3",
+        "course_description": "Focuses on methods, techniques, and mechanisms used to create \nthe abstraction from high level programming to machine level execution. This course also requires an \nindividual, semester long project.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "CMP SCI 2750",
+                        "CMP SCI 3130",
+                        "CMP SCI 4250"
+                    ]
+                },
+                {
+                    "and_required": "Graduate Standing"
+                }
+            ]
+        }
+    },
+    "Computer Graphics": {
+        "subject": "CMP SCI",
+        "course_number": "5410",
+        "credit": "3",
+        "course_description": "This course covers the theoretical foundation and algorithms for \ncomputer graphics. Students learn the basics of graphics programming for modeling, rendering, and \nanimation of 2D and 3D objects, using standard graphics API. A brief discussion of special graphics \nhardware, such as GPU, may be included.  Credit cannot be granted for both CMP SCI 4410 and CMP SCI \n5410.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": "D,E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "MATH 2450 or equivalent"
+            }
+        }
+    },
+    "Introduction to Software Engineering": {
+        "subject": "CMP SCI",
+        "course_number": "4500",
+        "credit": "3",
+        "course_description": "Focuses on software development and on the skills required for \nsuccess in the software profession. Topics related to software development may include software \nprocess, models and views, software architectures, documentation, and testing strategies. Topics \nrelated to the profession may include licensing, copyright, trademarks, and professional conduct. \nIndividual and group projects, research, and presentations may be required in this capstone \ncourse.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": [
+                    "CMP SCI 2261",
+                    "CMP SCI 2750",
+                    "CMP SCI 3010",
+                    "CMP SCI 3130"
+                ]
+            }
+        }
+    },
+    "Database Management Systems": {
+        "subject": "CMP SCI",
+        "course_number": "4610",
+        "credit": "3",
+        "course_description": "Focuses on database theory and applications, with emphasis on \nthe relational model. Topics include database design, modeling, file systems, indexing, integrity \nconstraints, relational algebra, normalization, transaction processing, and concurrency control. \nStudents are exposed to emerging DBMS technologies and applications. Several programming projects \nwill be required, using a popular SQL server.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "CMP SCI 3010",
+                        "MATH 3000"
+                    ]
+                },
+                {
+                    "and_required": "Graduate Standing"
+                }
+            ]
+        }
+    },
+    "Computer Networks and Communications": {
+        "subject": "CMP SCI",
+        "course_number": "4730",
+        "credit": "3",
+        "course_description": "Covers communication systems in the context of the ISO and \nTCP/IP standards for systems interconnection. Covers various types of networks including wide area \nnetworks, local area networks, and fiber optic networks.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "CMP SCI 2750",
+                        "MATH 1320"
+                    ]
+                },
+                {
+                    "and_required": "Graduate Standing"
+                }
+            ]
+        }
+    },
+    "Operating Systems": {
+        "subject": "CMP SCI",
+        "course_number": "4760",
+        "credit": "3",
+        "course_description": "Covers the structure of a generic operating system, considering \nin detail the algorithms for interprocess communication, process scheduling, resource management, \nmemory management, file systems, and device management. Presents examples from contemporary \noperating systems. This course also requires practical projects implemented within a modern \noperating system or simulator environment.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "CMP SCI 2750",
+                        "CMP SCI 3130"
+                    ]
+                },
+                {
+                    "and_required": "Graduate Standing"
+                }
+            ]
+        }
+    },
+    "Enterprise Web Development": {
+        "subject": "CMP SCI",
+        "course_number": "5012",
+        "credit": "3",
+        "course_description": "Covers design and implementation issues for enterprise web \ndevelopment, and some popular advanced technologies. Topics include MVC and persistence frameworks, \nsuch as Spring and Hibernate. Other topics may include Java Web services, EJB, messaging standards \nsuch as JMS, and Java EE design patterns. Students will develop enterprise-level web application \nprojects using the technologies covered in this course.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "CMP SCI 4010"
+            }
+        }
+    },
+    "Advanced Data Structures and Algorithms": {
+        "subject": "CMP SCI",
+        "course_number": "5130",
+        "credit": "3",
+        "course_description": "This course covers analysis of time and space complexity of \niterative and recursive algorithms along with performance bounds, design of data structures for \nefficient performance, sorting algorithms, probabilistic algorithms, divide and conquer strategies, \nvarious algorithms on graphs, and NP completeness.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "An elementary course in analysis of\n\t\t\t\t\talgorithms."
+            }
+        }
+    },
+    "Introduction to Evolutionary Computation": {
+        "subject": "CMP SCI",
+        "course_number": "5320",
+        "credit": "3",
+        "course_description": "This course introduces the concepts of nature-inspired problem solving with artificial evolution using selection, crossover, mutation and inheritance. It discusses applications of evolutionary algorithms, overviews the existing models and instances, and analyzes specific instances such as genetic algorithms, evolutionary programming, evolution strategies, and genetic programming. Credit not granted for both CMP SCI 4320 and CMP SCI 5320.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": [
+                    "CMP SCI 2261",
+                    "CMP SCI 2750",
+                    "CMP SCI 3130"
+                ]
+            }
+        }
+    },
+    "Digital Image Processing": {
+        "subject": "CMP SCI",
+        "course_number": "5420",
+        "credit": "3",
+        "course_description": "Covers topics in image analysis and visual perception. Students \nlearn data structures and algorithms for image processing, region and texture analysis, image \nfiltering, edge detection, contour following, and image enhancement in both spatial and frequency \ndomain. Other topics may include color processing, coding for storage, retrieval, transmission, and \nimage restoration. Topics are the same as CMP SCI 4420 but material is covered at a greater depth \nand additional projects are required. Credit cannot be granted for both CMP SCI 4420 and CMP SCI \n5420.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ]
+    },
+    "Software Engineering": {
+        "subject": "CMP SCI",
+        "course_number": "5500",
+        "credit": "3",
+        "course_description": "Introduces software engineering as a discipline, discusses \nstages of the software life cycle, compares development models such as waterfall, prototyping and \nincremental/iterative, covers requirements analysis, effort and cost estimation, compares structured \nand object- oriented analysis and design methods, Discusses verification/validation, quality \nassurance, software reliability, testing methods, maintenance, documentation, project management and \nteam structure, metrics, and available tools.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ]
+    },
+    "Computer Systems": {
+        "subject": "CMP SCI",
+        "course_number": "5700",
+        "credit": "3",
+        "course_description": "This course focuses on parallel computing architectures, \nincluding RISC, pipelining, vector processing, SIMD, MIMD, and array processing. It introduces \ndifferent memory and I/O subsystems, hardware description languages, and it demonstrates performance \nenhancement using different architectures studied.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ]
+    },
+    "High Performance Computing": {
+        "subject": "CMP SCI",
+        "course_number": "5740",
+        "credit": "3",
+        "course_description": "This course introduces algorithms for multiprocessor and \nmulti-core architectures. Students learn the models of modern parallel computation and techniques to \ntake advantage of parallel architectures for distributed and shared memory multi-processor \narchitectures. Credit not granted for both CMP SCI 4740 and CMP SCI 5740.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ]
+    },
+    "Advances in Evolutionary Computation": {
+        "subject": "CMP SCI",
+        "course_number": "6320",
+        "credit": "3",
+        "course_description": "This course focuses on some advanced topics in Genetic and \nEvolutionary Computation, both theoretical and practical. Topics may include competent genetic \nalgorithms, learning classifier systems, and Markov models. A substantial part of the course will be \nbased on recent literature. Projects may involve literature research, developing specific \napplications or implementing a specific model.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "CMP SCI 5320"
+            }
+        }
+    },
+    "Genetic Programming": {
+        "subject": "CMP SCI",
+        "course_number": "6340",
+        "credit": "3",
+        "course_description": "This course provides an in- depth exploration of Genetic \nProgramming, including advanced concepts such as scalability, evolution of modularity and \nregularity, and constrained evolution with CGP, STGP, or CFG-based GP. It may be reading, research, \nor application oriented.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "CMP SCI 5320"
+            }
+        }
+    },
+    "Topics in Computer Graphics": {
+        "subject": "CMP SCI",
+        "course_number": "6410",
+        "credit": "3",
+        "course_description": "This course covers various aspects of advanced graphics \ntechniques, such as geometric modeling, rendering, shading, texturing, and computer animation The \ncourse provides an in-depth study of recent advanced topics in computer \ngraphics.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "CMP SCI 4410"
+            }
+        }
+    },
+    "Topics in Image Processing and Multimedia": {
+        "subject": "CMP SCI",
+        "course_number": "6420",
+        "credit": "3",
+        "course_description": "This course covers new developments in digital image processing, \ncomputer vision, and multimedia. Topics to be covered may include image databases, object tracking, \nand large-scale data visualization.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "CMP SCI 5420"
+            }
+        }
+    },
+    "Applied Statistics": {
+        "subject": "MATH",
+        "course_number": "1320",
+        "credit": "3",
+        "course_description": "The course studies classical and recently developed statistical \nprocedures selected from areas including analysis of variance, multivariate analysis, nonparametric \nor semiparametric methods and generalized linear models. Emphasis is on application of procedures, \nincluding the rationale underlying choice of procedures.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D,E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D,E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": "MATH 4210"
+                },
+                {
+                    "and_required": "Consent of the instructor"
+                }
+            ]
+        }
+    },
+    "Analytic Geometry and Calculus I": {
+        "subject": "MATH",
+        "course_number": "1800",
+        "credit": "5",
+        "course_description": "his course provides an introduction to differential and integral \ncalculus. Topics include limits, derivatives, related rates, Newton\\x27s method, the Mean-Value \nTheorem, Max-Min problems, the integral, the Fundamental Theorem of Integral Calculus, areas, \nvolumes, and average values.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D,E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D,E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "MATH 1030",
+                        "MATH 1035"
+                    ]
+                },
+                {
+                    "and_required": [
+                        "MATH 1035",
+                        "MATH 1040"
+                    ]
+                },
+                {
+                    "and_required": "A satisfactory score on the UMSL ALEKS Math Placement\n\t\t\t\t\tExamination, obtained at most one year prior to enrollment in this course."
+                },
+                {
+                    "and_required": "Approval of the department"
+                }
+            ],
+            "additional_preq": "a satisfactory ACT Math score along with a satisfactory \nscore on the university\\x27s trigonometry examination, or a satisfactory score on both the \nuniversity\\x27s mathematics proficiency examination and the university\\x27s trigonometry \nexamination."
+        }
+    },
+    "Analytic Geometry and Calculus II": {
+        "subject": "MATH",
+        "course_number": "1900",
+        "credit": "5",
+        "course_description": "Topics include conic sections, rotations of axes, polar \ncoordinates, exponential and logarithmic functions, inverse (trigonometric) functions, integration \ntechniques, applications of the integral (including mass, moments, arc length, and hydrostatic \npressure), parametric equations, infinite series, power and Taylor series",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D,E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D,E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "MATH 1800"
+            }
+        }
+    },
+    "Analytic Geometry and Calculus III": {
+        "subject": "MATH",
+        "course_number": "2000",
+        "credit": "5",
+        "course_description": "Topics include vectors, cylindrical and spherical coordinates, \nvector-valued functions, arc length and curvature, functions of several variables, partial and \ndirectional derivatives, gradients, extrema, Lagrange multipliers, multiple integrals, change of \nvariables, surface area, vector fields, Stokes\\x27 Theorem",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D,E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D,E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "MATH 1900"
+            }
+        }
+    },
+    "Introduction to Differential Equations": {
+        "subject": "MATH",
+        "course_number": "2020",
+        "credit": "3",
+        "course_description": "Topics will be chosen from linear differential equations, \nequations with constant coefficients, Laplace transforms, power series solutions, systems of \nordinary differential equations.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D,E"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "MATH 2000"
+            }
+        }
+    },
+    "Elementary Linear Algebra": {
+        "subject": "MATH",
+        "course_number": "2450",
+        "credit": "3",
+        "course_description": "An introduction to linear algebra. Topics will include complex \nnumbers, geometric vectors in two and three dimensions and their linear transformations, the algebra \nof matrices, determinants, solutions of systems of equations, eigenvalues and \neigenvectors.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D,E"
+            },
+            {
+                "term": "Fall",
+                "time_code": "D,E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": "MATH 1100"
+                },
+                {
+                    "and_required": "MATH 1900"
+                }
+            ]
+        }
+    },
+    "Discrete Structures": {
+        "subject": "MATH",
+        "course_number": "3000",
+        "credit": "3",
+        "course_description": "Treats fundamental ideas in discrete structures and serves as a \nfoundation for subsequent course in both Mathematics and Computer Science. Provides an introduction \nto techniques of mathematical reasoning with examples derived from computer science. Topics include \nlogic, set algebra, equivalence relations and partitions, functions, mathematical induction, \nelementary number theory, cardinality, recurrence relations, basic combinatorial methods, trees and \ngraphs.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": "E"
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "CMP SCI 1250 or equivalent",
+                        "MATH 1100"
+                    ]
+                },
+                {
+                    "and_required": [
+                        "CMP SCI 1250 or equivalent",
+                        "MATH 1900"
+                    ]
+                }
+            ]
+        }
+    },
+    "Real Analysis I": {
+        "subject": "MATH",
+        "course_number": "4100",
+        "credit": "3",
+        "course_description": "Introduction to real analysis in one variable Topics include \nthe real number system, limits, continuity, differentiability, and sequences and series of \nfunctions",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": [
+                    "MATH 2000",
+                    "MATH 3000"
+                ]
+            }
+        }
+    },
+    "Complex Analysis I": {
+        "subject": "MATH",
+        "course_number": "4160",
+        "credit": "3",
+        "course_description": "Complex numbers and their geometrical representation, point \nsets, analytic functions of a complex variable, complex integration, Taylor and Laurent series, \nresidue theorem, conformal mapping.",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": "MATH 2020"
+                },
+                {
+                    "and_required": [
+                        "MATH 2000",
+                        "MATH 3000"
+                    ]
+                }
+            ]
+        }
+    },
+    "Mathematical Statistics II": {
+        "subject": "MATH",
+        "course_number": "4200",
+        "credit": "3",
+        "course_description": "Continuation of MATH 4200 Sampling distribution, estimation \ntheory, properties of estimators, hypothesis testing, Neyman-Pearson Theorem, likelihood ratio \ntests, introduction of analysis of variance and linear models Basics of some nonparametric \nprocedures",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "MATH 4200"
+            }
+        }
+    },
+    "Introduction to Abstract Algebra I": {
+        "subject": "MATH",
+        "course_number": "4400",
+        "credit": "3",
+        "course_description": "Introduction to groups, rings, and fields, with emphasis on \ngroups and rings",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": [
+                    "MATH 2000",
+                    "MATH 3000"
+                ]
+            }
+        }
+    },
+    "Linear Algebra": {
+        "subject": "MATH",
+        "course_number": "4450",
+        "credit": "3",
+        "course_description": "Topics selected from vector spaces, bases, linear \ntransformations, matrices, canonical forms, eigenvalues, hermitian and unitary matrices, inner \nproduct spaces, and quadratic forms",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "D"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": [
+                    "MATH 2000",
+                    "MATH 2450",
+                    "MATH 3000"
+                ]
+            }
+        }
+    },
+    "Foundations of Geometry": {
+        "subject": "MATH",
+        "course_number": "4660",
+        "credit": "3",
+        "course_description": "A development of portions of Euclidean geometry from a selected \nset of axioms, including a discussion of consistency, independence, categoricity, and completeness \nof the axioms",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "MATH 2000",
+                        "MATH 3000"
+                    ]
+                },
+                {
+                    "and_required": "Consent of the department"
+                }
+            ]
+        }
+    },
+    "Introduction to Non-Euclidean Geometry": {
+        "subject": "MATH",
+        "course_number": "4670",
+        "credit": "3",
+        "course_description": "A summary of the history of the non- Euclidean geometries and a \nstudy of hyperbolic plane geometry",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "MATH 2000",
+                        "MATH 3000"
+                    ]
+                },
+                {
+                    "and_required": "Consent of the department"
+                }
+            ]
+        }
+    },
+    "Real Analysis II": {
+        "subject": "MATH",
+        "course_number": "5100",
+        "credit": "3",
+        "course_description": "Introduction to measure and integration Topics include the \nRiemannStieltjes integral, Lebesgue measure, measurable functions, the Lebesgue integral, \nRadon-Nikodym and Fubini theorems and the basics of Lp-spaces",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "MATH 4100"
+            }
+        }
+    },
+    "Set Theory and Metric Spaces": {
+        "subject": "MATH",
+        "course_number": "5140",
+        "credit": "3",
+        "course_description": "Na?ve set theory, cardinal arithmetic, ordinal numbers, the \naxiom of choice and equivalents, metric spaces, convergence, continuity, compactness, contraction \nprinciples and applications Construction of completions and examples like the real numbers and \np-adic numbers Other topics could include the Stone-Weierstrass theorem and metrizability \ntheorems",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": "E"
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": "MATH 4100"
+                },
+                {
+                    "and_required": "Consent of the instructor"
+                }
+            ]
+        }
+    },
+    "Complex Analysis II": {
+        "subject": "MATH",
+        "course_number": "5160",
+        "credit": "3",
+        "course_description": "A second course in complex analysis, emphasizing the theory of \nanalytic functions, and including various topics like the Riemann mapping theorem, normal families, \nanalytic continuation, representations of analytic functions, and elliptic \nfunctions",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": [
+                {
+                    "and_required": [
+                        "MATH 4160",
+                        "MATH 4100"
+                    ]
+                },
+                {
+                    "and_required": [
+                        "MATH 4160",
+                        "MATH 4800"
+                    ]
+                }
+            ]
+        }
+    },
+    "Topics in Algebra": {
+        "subject": "MATH",
+        "course_number": "5820",
+        "credit": "3",
+        "course_description": "Topics selected from the theory of groups, rings, fields, \nalgebras, and other algebraic systems May be taken more than once for credit with consent of \ndepartment",
+        "rotation_term": [
+            {
+                "term": "Spring",
+                "time_code": null
+            },
+            {
+                "term": "Fall",
+                "time_code": null
+            }
+        ],
+        "prerequisite": {
+            "or_choice": {
+                "and_required": "Consent of the instructor"
+            }
+        }
+    }
+}
